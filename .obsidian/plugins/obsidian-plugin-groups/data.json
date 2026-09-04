@@ -1,0 +1,157 @@
+{
+  "groups": [
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 1,
+      "id": "pkmu",
+      "name": "PKμ",
+      "plugins": [
+        {
+          "id": "dataview",
+          "name": "Dataview"
+        },
+        {
+          "id": "modalforms",
+          "name": "Modal forms"
+        },
+        {
+          "id": "quickadd",
+          "name": "QuickAdd"
+        },
+        {
+          "id": "modules",
+          "name": "Modules"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false
+    },
+    {
+      "loadAtStartup": false,
+      "disableOnStartup": false,
+      "delay": 2,
+      "id": "alpha",
+      "name": "A_小物",
+      "plugins": [
+        {
+          "id": "obsidian-spaced-repetition",
+          "name": "Spaced Repetition"
+        },
+        {
+          "id": "obsidian-front-matter-title-plugin",
+          "name": "Front Matter Title"
+        },
+        {
+          "id": "obsidian-view-mode-by-frontmatter",
+          "name": "Force note view mode"
+        },
+        {
+          "id": "obsidian-recall",
+          "name": "Recall"
+        },
+        {
+          "id": "obsidian-advanced-uri",
+          "name": "Advanced URI"
+        },
+        {
+          "id": "tag-wrangler",
+          "name": "Tag Wrangler"
+        },
+        {
+          "id": "code-emitter",
+          "name": "Code Emitter"
+        },
+        {
+          "id": "keyboard-analyzer",
+          "name": "Keyboard Analyzer"
+        },
+        {
+          "id": "obsidian-git",
+          "name": "Git"
+        },
+        {
+          "id": "terminal",
+          "name": "Terminal"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": true,
+      "autoAdd": false
+    },
+    {
+      "loadAtStartup": false,
+      "disableOnStartup": false,
+      "delay": 4,
+      "id": "delta",
+      "name": "D_筆先仕物",
+      "plugins": [
+        {
+          "id": "music-code-blocks",
+          "name": "ABC Music Notation"
+        },
+        {
+          "id": "canvas-mindmap-helper",
+          "name": "Canvas Mindmap Helper"
+        },
+        {
+          "id": "notion-like-tables",
+          "name": "DataLoom"
+        },
+        {
+          "id": "obsidian-dictionary-plugin",
+          "name": "Dictionary"
+        },
+        {
+          "id": "obsidian-excalidraw-plugin",
+          "name": "Excalidraw"
+        },
+        {
+          "id": "folder-notes",
+          "name": "Folder notes"
+        },
+        {
+          "id": "gemini-scribe",
+          "name": "Gemini Scribe"
+        },
+        {
+          "id": "obsidian-map-view",
+          "name": "Map View"
+        },
+        {
+          "id": "obsidian-outliner",
+          "name": "Outliner"
+        },
+        {
+          "id": "smart-gantt",
+          "name": "Smart Gantt"
+        },
+        {
+          "id": "terminal",
+          "name": "Terminal"
+        },
+        {
+          "id": "global-search-and-replace",
+          "name": "Global Search and Replace"
+        },
+        {
+          "id": "obsidian-livesync",
+          "name": "Self-hosted LiveSync"
+        },
+        {
+          "id": "vault-ai",
+          "name": "VaultAI"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": true,
+      "autoAdd": true
+    }
+  ],
+  "generateCommands": true,
+  "showNoticeOnGroupLoad": "short",
+  "devLogs": false,
+  "devices": [],
+  "doLoadSynchronously": true,
+  "showStatusbarIcon": "Icon"
+}

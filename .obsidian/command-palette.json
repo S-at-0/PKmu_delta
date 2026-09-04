@@ -1,6 +1,10 @@
 {
   "pinned": [
+    "PKmu:Mneme",
+    "PKmu:gitCleanup",
+    "app:reload",
     "file-explorer:move-file",
-    "app:reload"
+    "PKmu:flipFile",
+    "PKmu:backupWithNotice"
   ]
 }

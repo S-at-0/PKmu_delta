@@ -1,0 +1,135 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [
+    {
+      "id": "PKmu:copyLinkText",
+      "icon": "lucide-clipboard-copy",
+      "name": "PKµ: リンクをコピー",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "zk-prefixer",
+      "icon": "box-glyph",
+      "name": "公験",
+      "mode": "any"
+    },
+    {
+      "id": "random-note",
+      "icon": "dice-glyph",
+      "name": "ランダムノート: ランダムノートを開く",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-spaced-repetition:srs-review-flashcards",
+      "icon": "star-list",
+      "name": "フラッシュカード",
+      "mode": "any"
+    },
+    {
+      "id": "workspaces:open-modal",
+      "icon": "lucide-layout",
+      "name": "レイアウトを管理",
+      "mode": "any"
+    },
+    {
+      "id": "switcher:open",
+      "icon": "lucide-file-search",
+      "name": "クイックスイッチャー",
+      "mode": "any"
+    },
+    {
+      "id": "graph:open",
+      "icon": "lucide-git-fork",
+      "name": "グラフビュー",
+      "mode": "any"
+    },
+    {
+      "id": "canvas:new-file",
+      "icon": "lucide-layout-dashboard",
+      "name": "新規キャンバス",
+      "mode": "any"
+    },
+    {
+      "id": "command-palette:open",
+      "icon": "lucide-terminal",
+      "name": "コマンドパレット",
+      "mode": "any"
+    },
+    {
+      "id": "notion-like-tables:create",
+      "icon": "lucide-table",
+      "name": "Loomを作成",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-map-view:open-map-view",
+      "icon": "map-pin",
+      "name": "マップビューを開く",
+      "mode": "any"
+    },
+    {
+      "id": "modules:clear-cache",
+      "icon": "database-zap",
+      "name": "Modulesキャッシュをクリア",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "PKmu:tally",
+      "icon": "lucide-book-key",
+      "name": "PKµ: 手形付け",
+      "mode": "mobile",
+      "color": "#ff6a00"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "textToolbarCommands": [],
+  "hide": {
+    "statusbar": [
+      "keyboard-analyzer",
+      "obsidian-git"
+    ],
+    "leftRibbon": [
+      "P2P Status",
+      "Show Log",
+      "Replicate",
+      "Modules: Clear cache",
+      "Open map view",
+      "Create loom",
+      "Open Git source control",
+      "ベース: 新規ベースを作成",
+      "新規ユニークノートの作成",
+      "ランダムノートを開く",
+      "フラッシュカードのレビュー",
+      "ワークスペースレイアウトを管理",
+      "クイックスイッチャーを開く",
+      "グラフビューを開く",
+      "新規キャンバスを作成",
+      "コマンドパレットを開く",
+      "Markdownインポーターを開く",
+      "カスタマイズ同期を表示",
+      "Edit forms"
+    ]
+  },
+  "spacing": "5",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": true,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 1
+  }
+}

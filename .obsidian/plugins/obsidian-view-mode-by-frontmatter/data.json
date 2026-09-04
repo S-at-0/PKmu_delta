@@ -1,0 +1,12 @@
+{
+  "debounceTimeout": 300,
+  "ignoreOpenFiles": false,
+  "ignoreForceViewAll": true,
+  "folders": [
+    {
+      "folder": "SrcBarn/付け型",
+      "viewMode": "obsidianEditingMode: source"
+    }
+  ],
+  "files": []
+}
