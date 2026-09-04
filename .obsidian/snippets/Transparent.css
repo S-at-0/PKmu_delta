@@ -1,0 +1,76 @@
+body{
+  --ribbon-background: rgb(40,60,10);
+  --tab-text-color-focused-active-current: var(--text-accent);
+  --PKmu-background: var(--background-primary);
+
+  .workspace {
+    --background-primary: color-mix(in srgb, var(--PKmu-background) 4%, transparent);
+  }
+  .markdown-rendered pre, .markdown-source-view.mod-cm6 .HyperMD-codeblock{
+    background-color: var(--background-primary) !important
+  }
+  .empty-state-action, .metadata-content{
+    -webkit-backdrop-filter: opacity(20%);
+    backdrop-filter: blur(10px);
+  }
+
+
+
+/* スタックタブでタイトルバーをガラス調に（一括定義） */
+  .view-header,
+  .workspace-leaf.mod-active .view-header,
+  .mod-stacked .workspace-tab-header {
+    background: linear-gradient(
+      to bottom,
+      var(--PKmu-background),
+      var(--background-primary)
+    ) !important;
+    /* ライトモードの時は、ヘッダの輝きを落ち着かせる */
+    --PKmu-header: blur(4px) brightness(200%);
+    .theme-light & {--PKmu-header: blur(2px) brightness(90%)}
+    -webkit-backdrop-filter: var(--PKmu-header) !important;
+    backdrop-filter: var(--PKmu-header) !important;
+  }
+
+/*文字を背景ぼかし・コントラストで見やすく*/
+  .workspace-split:not(.mod-sidedock) .workspace-leaf-content {
+    display: flex !important;
+    -webkit-backdrop-filter: blur(1.2px);
+    backdrop-filter: blur(1.2px);
+  }
+  .view-header-title-container,
+  .workspace-split.mod-sidedock .workspace-tab-container,
+  .workspace-split:not(.mod-sidedock)
+    .workspace-leaf-content[data-type="markdown"]
+    .view-content 
+  {filter: contrast(200%)}
+
+ /* 不要な効果を無効化 */
+  .workspace-split:not(.mod-root),
+  .metadata-properties-heading,
+  .metadata-container,
+  .metadata-value,
+  .metadata-content, 
+  .metadata-property-key-input,
+  .empty-state,
+  .empty-state-action,
+  .canvas-wrapper, .pdf-container, .table-view-table,
+  .view-header-title-container:not(.mod-at-end):after {
+    background: transparent !important;
+  }
+}
+
+/* モバイル端末用：ステータスバー領域の塗りつぶし*/
+.is-mobile .app-container::before {
+  content: ""; z-index: 1;
+  display: block; position: fixed;
+  top: 0; left: 0; width: 100%;
+  height: env(safe-area-inset-top);
+  background-color: var(--background-primary);
+}
+
+/* サイドバーがステータスバー帯より手前に来るようにする */
+.is-mobile .workspace-split.mod-sidedock {
+  position: relative;
+  z-index: 2;
+}

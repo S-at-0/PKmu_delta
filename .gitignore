@@ -1,14 +1,41 @@
+# ================
+# 1. バイナリ仕分け
+# ================
+# 拡張子含む全てを取り除く
+*.*
+
+# 下のファイルは救い出す
+!.obsidian**
+
+!*.md
+!*.canvas
+!*.json
+!*.css
+!*.ts
+!*.js
+
+!.gitignore
+
+# ================
+# 2. 再び除く
+# ================
+package-lock.json
+.trash/
+.DS_Store
+.idea/
+node_modules/
+
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/graph.json
-
-node_modules/
-package-lock.json
-.trash/*
-.DS_Store
-.idea/*
-
+.obsidian/plugins/obsidian-livesync/data.json
 .obsidian/plugins/quickadd/data.json
-SrcBarn/付け型/付け型.md
+.obsidian/plugins/obsidian-spaced-repetition/data.json
+.obsidian/plugins/vault-ai/data.json
+*tracked_files.json
+
+.obsidian/snippets/Background_Tricōno.css
 _事地/文殿/*
+SrcBarn/付け型/付け型.md
+
 !.gitkeep
