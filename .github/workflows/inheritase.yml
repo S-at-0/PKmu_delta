@@ -1,0 +1,130 @@
+name: 🔄PKμ Inheritase
+on: 
+  workflow_dispatch:
+  workflow_call:
+env:
+  # SOURCE_BRANCH: マージ元のブランチ名 (Source)
+  # INCLUDE_PATHS: 同期対象(スペース区切り)
+  # EXCLUDE_PATHS: 除外ファイル (スペース区切り)
+  #   INCLUDE_PATHS に含まれていても、元の状態を維持します
+  # IGNORE_BRANCHES_REGEX: マージから除外するブランチ (正規表現形式、| で区切る)
+  #   HEAD と SOURCE_BRANCH は自動的に除外されるため、それ以外を指定してください
+  SOURCE_BRANCH: "_Melete"
+  INCLUDE_PATHS: "_事地/ SrcBarn/ .obsidian/"
+  EXCLUDE_PATHS: ".obsidian/appearance.json .obsidian/community-plugins.json .obsidian/bookmarks.json .obsidian/plugins/terminal/ .obsidian/plugins/modules/"
+  IGNORE_BRANCHES_REGEX: "_Mneme"
+
+jobs:
+  inherit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          ref: ${{ env.SOURCE_BRANCH }}
+
+      - name: Prepare
+        run: |
+          set -e # エラーが発生した場合にスクリプトを終了する
+          git fetch --all
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git config --global core.quotepath false
+
+      - name: Ensure Branches
+        id: get_branches
+        run: |
+          # PKµブランチが存在することを確認
+          if ! git show-ref --verify --quiet refs/remotes/origin/$SOURCE_BRANCH; then
+            echo "Error: Source branch '$SOURCE_BRANCH' does not exist on remote. Exiting."
+            exit 1
+          fi
+
+          # 対象ブランチの選り抜き
+          EXCLUDE_PATTERN="origin/(HEAD|$IGNORE_BRANCHES_REGEX|$SOURCE_BRANCH)"
+          echo "Exclude pattern: $EXCLUDE_PATTERN"
+          BRANCHES=$(git branch -r | grep -E -v "$EXCLUDE_PATTERN" | sed 's/origin\///g' | tr '\n' ' ')
+          
+          echo "branches_to_merge=$BRANCHES" >> $GITHUB_OUTPUT
+          echo "Target branches: $BRANCHES"
+
+      - name: Merge Source into target branches (Scoped 3-way merge)
+        run: |
+          for branch in ${{ steps.get_branches.outputs.branches_to_merge }}; do
+          # ターゲットブランチに切り替え
+            echo ""
+            echo "--- Processing branch: $branch ---"
+            git checkout $branch
+            git pull origin $branch
+
+            # 1. 競合探り (-X ours で安定的にプレビュー)
+            CONFLICT_MSG=""
+            if ! git merge --no-commit --no-ff -X ours $SOURCE_BRANCH > /dev/null 2>&1; then
+              ALL_CONFLICTS=$(git diff --name-only --diff-filter=U -- $INCLUDE_PATHS)
+              
+              if [ -n "$ALL_CONFLICTS" ]; then
+                EXCLUDE_FILTER=$(echo "$EXCLUDE_PATHS" | tr ' ' '\n')
+                CONFLICT_FILES=$(echo "$ALL_CONFLICTS" | grep -vFf <(echo "$EXCLUDE_FILTER" | tr ' ' '\n') || true)
+                if [ -n "$CONFLICT_FILES" ]; then
+                  echo "⚠️  Conflicts detected in target paths. These will be overwritten."
+                  CONFLICT_MSG="⚠️ OVERWRITTEN FILES:"$'\n'"$CONFLICT_FILES"
+                fi
+              fi
+            fi
+            
+            # マージ状態が存在する場合のみ abort
+            if [ -f .git/MERGE_HEAD ]; then
+              git merge --abort
+            fi
+
+            echo "Starting merge from $SOURCE_BRANCH..."
+
+            # 2. ソースから取り揃え (-X theirs で最終的に SOURCE_BRANCH を採用)
+            git merge --no-commit --no-ff -X theirs $SOURCE_BRANCH || true
+            git status --porcelain | grep -E '^(DU|UD) ' | cut -c 4- | while read -r file; do
+              if [ -e "$file" ]; then
+                echo "  Removing conflicted file: $file"
+                rm -rf "$file"
+              fi
+            done
+            git reset HEAD
+            
+            # 3. 仕場を整え(事地の移し・取り除き)
+            if [ -n "$INCLUDE_PATHS" ]; then
+              git add $INCLUDE_PATHS || echo "Warning: Some include paths not found."
+            fi
+            if [ -n "$EXCLUDE_PATHS" ]; then
+              for p in $EXCLUDE_PATHS; do
+                if git ls-files --error-unmatch "$p" >/dev/null 2>&1; then
+                  git restore --source=HEAD --staged --worktree "$p" || git checkout HEAD -- "$p"
+                 else # ターゲットに無かった新規追加を確実に取り除く
+                   git rm -r --cached --ignore-unmatch "$p" || true
+                   rm -rf "$p" || true
+                 fi
+              done
+            fi
+            
+            # 4. 片付け・確かめ
+            git checkout .
+            git clean -fd
+
+            if ! git diff --cached --quiet; then
+              echo "Changes detected. Committing..."
+              # 基本メッセージ
+              COMMIT_SUBJECT="inherited from $SOURCE_BRANCH (scoped merge)"
+              
+              # 競合あれば記し置き
+              if [ -n "$CONFLICT_MSG" ]; then
+                git commit -m "⚠️$COMMIT_SUBJECT" -m "$CONFLICT_MSG"
+              else
+                git commit -m "$COMMIT_SUBJECT"
+              fi
+              git push
+            else
+              echo "No changes to merge."
+            fi
+
+          done

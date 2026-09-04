@@ -1,0 +1,90 @@
+name: 🛜PKμ Penetrator
+
+on:
+  workflow_dispatch:
+    inputs:
+      upstream_repo:
+        description: '仕込み元'
+        required: true
+        default: 'S-at-0/PKmu_delta'
+      upstream_branch:
+        description: '取込み所'
+        required: true
+        default: '_melete'
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  penetrate:
+    runs-on: ubuntu-latest
+    outputs:
+      merged: ${{ steps.sync.outputs.merged }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Configure and Fetch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # デフォルトブランチを取得してチェックアウト
+          TARGET_BRANCH=$(gh repo view --json defaultBranchRef -q .defaultBranchRef.name)
+          echo "TARGET_BRANCH=$TARGET_BRANCH" >> $GITHUB_ENV
+          echo "Default branch detected: $TARGET_BRANCH"
+          git checkout $TARGET_BRANCH
+
+          # リモートの追加とフェッチ
+          git remote add upstream "https://github.com/${{ github.event.inputs.upstream_repo }}.git"
+          git fetch upstream ${{ github.event.inputs.upstream_branch }}
+
+      - name: Merge or Create PR
+        id: sync
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          UPSTREAM_BRANCH: upstream/${{ github.event.inputs.upstream_branch }}
+        run: |
+          # 1. 既に最新であるか確認
+          if git merge-base --is-ancestor $UPSTREAM_BRANCH HEAD; then
+            echo "既に元リポジトリの最新変更を取り込み済みです。"
+            echo "merged=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # 2. コンフリクトなしでマージできるか試行
+          if git merge --no-commit --no-ff $UPSTREAM_BRANCH; then
+            echo "✅ コンフリクトなしでマージ成功。コミットしてプッシュします。"
+            git commit -m "🛜PKμ Penetrator - merged upstream changes"
+            git push origin $TARGET_BRANCH
+            echo "merged=true" >> $GITHUB_OUTPUT
+          else
+            echo "⚠️ コンフリクトを検知しました。マージを中断し、プルリクエストを作成します。"
+            git merge --abort
+            
+            INTERIM_BRANCH="melete/upstream-$(date +'%Y%m%d-%H%M%S')"
+            git checkout -b $INTERIM_BRANCH
+            git reset --hard $UPSTREAM_BRANCH
+            git push origin $INTERIM_BRANCH
+
+            # 検出したデフォルトブランチに向けてPRを作成
+            gh pr create \
+              --base "$TARGET_BRANCH" \
+              --head "$INTERIM_BRANCH" \
+              --title "⚠️ PKμ更新中のコンフリクト" \
+              --body "自動マージに失敗しました。コンフリクトを解消した上、各ブランチに伝えたければinheritaseを仕掛けてください。"
+            
+            echo "merged=false" >> $GITHUB_OUTPUT
+          fi
+
+  call-inheritase:
+    needs: penetrate
+    if: needs.penetrate.outputs.merged == 'true'
+    uses: ./.github/workflows/inheritase.yml
