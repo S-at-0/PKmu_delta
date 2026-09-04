@@ -1,0 +1,24 @@
+{
+  "autoReloadStartupModules": true,
+  "enableExternalLinks": false,
+  "errorNoticeTimeout": 5,
+  "exposeInternalModules": true,
+  "importTimeout": 10,
+  "language": "",
+  "markdownCodeBlockLanguagesToLoad": [
+    "JS",
+    "TS",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "noticeTimeout": 5,
+  "openChangelogOnUpdate": true,
+  "preloadedExternalLinks": [],
+  "preloadingRules": [
+    "+/\\.m?[jt]s(?:\\.md)?$/iu"
+  ],
+  "requireName": "require",
+  "startupModules": [
+    "[[25-282-1276]]"
+  ]
+}
