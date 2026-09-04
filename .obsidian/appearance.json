@@ -1,0 +1,10 @@
+{
+  "theme": "obsidian",
+  "monospaceFontFamily": "JetBrainsMono-ExtraLight",
+  "enabledCssSnippets": [
+    "MCL Multi Column",
+    "埋め込み名付け",
+    "折り返し"
+  ],
+  "translucency": false
+}
