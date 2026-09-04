@@ -1,13 +1,16 @@
 {
-  "theme": "obsidian",
   "monospaceFontFamily": "JetBrainsMono-ExtraLight",
+  "theme": "obsidian",
+  "cssTheme": "Wikipedia",
+  "accentColor": "",
+  "interfaceFontFamily": "WDXL Lubrifont JP N",
+  "textFontFamily": "Zen Old Mincho,STIX Two Math",
   "enabledCssSnippets": [
+    "MCL Multi Column",
     "折り返し",
-    "TypePatch",
-    "MCL Multi Column"
+    "Transparent",
+    "Background",
+    "WikiPatch"
   ],
-  "cssTheme": "Typewriter",
-  "accentColor": "#6db277",
-  "interfaceFontFamily": "DSE Typewriter,Kosugi Maru",
-  "textFontFamily": "Klee One"
+  "translucency": false
 }
