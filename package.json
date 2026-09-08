@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "obsidian": "^1.13.1",
+    "obsidian-dataview": "^0.5.68"
+  }
+}
