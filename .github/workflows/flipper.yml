@@ -1,0 +1,48 @@
+name: PKµ flipper (any)
+
+on:
+  push:
+    paths: '渡場/**'
+    branches: '!_Mneme'
+  workflow_dispatch:
+
+jobs:
+  penetrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Debug Info
+        run: |
+          echo "Actor: ${{ github.actor }}"
+          echo "Ref: ${{ github.ref }}"
+          echo "Event Name: ${{ github.event_name }}"
+          echo "Head Ref: ${{ github.head_ref }}"
+
+      - name: Checkout current branch
+        uses: actions/checkout@v4
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+          # 現在のブランチをチェックアウト
+          ref: ${{ github.ref }}
+          
+      - name: Configure git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global core.quotepath false
+          git fetch --all
+          
+      - name: transfer to Mneme
+        run: | # 現在のブランチから Mneme ブランチへ '渡場' ディレクトリを転送
+          git checkout _Mneme
+          git restore --source ${{ github.ref_name }} -- 渡場/
+          git add -A
+          git commit -m "flip from ${{ github.ref }}"
+          git push origin _Mneme
+
+      - name: amend current branch
+        run: | # 現在のブランチで '渡場' ディレクトリをクリア
+          git checkout ${{ github.ref_name }}
+          rm -rf 渡場/*
+          git add -A
+          git commit --allow-empty -m "flip to MnemeBranch"
+          git push

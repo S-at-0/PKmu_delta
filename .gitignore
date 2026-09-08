@@ -7,3 +7,8 @@ package-lock.json
 .trash/*
 .DS_Store
 .idea/*
+
+.obsidian/plugins/quickadd/data.json
+SrcBarn/付け型/付け型.md
+_事地/文殿/*
+!.gitkeep
