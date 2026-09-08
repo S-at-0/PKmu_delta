@@ -2,9 +2,9 @@
   "theme": "obsidian",
   "monospaceFontFamily": "JetBrainsMono-ExtraLight",
   "enabledCssSnippets": [
-    "MCL Multi Column",
-    "埋め込み名付け",
-    "折り返し"
+    "折り返し",
+    "MCL Multi Column"
   ],
-  "translucency": false
+  "translucency": false,
+  "baseFontSize": 16
 }
