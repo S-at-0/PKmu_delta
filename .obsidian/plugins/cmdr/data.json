@@ -67,6 +67,12 @@
       "mode": "any"
     },
     {
+      "id": "notion-like-tables:create",
+      "icon": "lucide-table",
+      "name": "Loomを作成",
+      "mode": "any"
+    },
+    {
       "id": "modules:clear-cache",
       "icon": "database-zap",
       "name": "Modulesキャッシュをクリア",

@@ -3,8 +3,11 @@
   "monospaceFontFamily": "JetBrainsMono-ExtraLight",
   "enabledCssSnippets": [
     "折り返し",
+    "TypePatch",
     "MCL Multi Column"
   ],
-  "translucency": false,
-  "baseFontSize": 16
+  "cssTheme": "Typewriter",
+  "accentColor": "#6db277",
+  "interfaceFontFamily": "DSE Typewriter,Kosugi Maru",
+  "textFontFamily": "Klee One"
 }
