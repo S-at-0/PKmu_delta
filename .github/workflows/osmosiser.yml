@@ -1,0 +1,79 @@
+name: PKµ osmosiser
+
+on:
+  push:
+    branches: _Mneme
+    paths: '渡場/*/*'
+  workflow_dispatch:
+
+jobs:
+  osmosis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Mneme branch
+        uses: actions/checkout@v4
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+          ref: _Mneme
+          
+      - name: Configure
+        run: |
+          set -euo pipefail
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global core.quotepath false
+          git pull --all
+          git commit -m "osmosis" --no-edit --allow-empty
+
+      - name: process
+        run: |
+          # 今のブランチ(Mneme)を除いた一覧を取得する
+          srcBranches=$(git branch -r --format='%(refname:strip=3)' | grep -vE 'HEAD|_Mneme')
+          git branch -r --format='%(refname:strip=3)'
+          echo "Source branches: ${srcBranches[@]}"
+
+          # ブランチが無い時除き浸透作業へ移る
+          for targPath in 渡場/*; do
+            [ -d "$targPath" ] || continue
+            target=$(basename "$targPath")
+            echo "" 
+            echo "Focusing to ${target} directory..."
+            
+            targBranches=$(echo "$srcBranches" | grep -E "(^|/)${target}$" || true)
+            if [[ -z "$targBranches" ]]; then
+              echo "  No matching branches found for ${target}. Skipping."
+              continue
+            fi
+            
+            for targBranch in $targBranches; do
+              echo "------ Processing branch: ${targBranch} ------"
+              
+              # 渡場へ移す
+              git checkout "$targBranch"
+              git checkout _Mneme -- "$targPath"
+              
+              # 送り込む
+              cd "$targPath"
+              while find . -type f -not -name ".gitkeep" | grep -q .; do
+                rsync -av --remove-source-files --ignore-existing * ../../
+                find . -type f ! -name *.gitkeep -execdir sh -c 'mv -nv "$1" "_$1"' _ {} \;
+              done
+
+              # 整え、片付ける
+              rm -fv .gitkeep
+              cd ../..
+              git add -A
+              git commit --allow-empty -m "penetrate from Mneme"
+              git push
+              
+            done
+            
+            # Mnemeの追従
+            git checkout _Mneme
+            rm -fvr $targPath/*
+            
+            git add -A
+            git commit --amend --no-edit --allow-empty
+          done
+
+          git push
