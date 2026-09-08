@@ -1,0 +1,7 @@
+{
+  "maxNewPerDay": 20,
+  "repeatItems": true,
+  "dataLocation": "In Plugin Folder",
+  "locationPath": "",
+  "algorithm": "SM2"
+}

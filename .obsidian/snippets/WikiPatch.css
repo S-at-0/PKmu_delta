@@ -1,0 +1,13 @@
+.is-mobile{
+    .nav-header, .nav-header:not(:hover) {
+        height: auto !important; /* 高さ潰しを防ぐ */
+        opacity: 1 !important;   /* 透明化を防ぐ */
+        min-height: 45px;        /* 念のため高さを確保 */
+        padding-bottom: 0;       /* レイアウト崩れ防止 */
+    }
+
+    /* ボタンコンテナも常に表示 */
+    .nav-buttons-container {
+        opacity: 1 !important;
+    }
+}
