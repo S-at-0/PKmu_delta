@@ -1,6 +1,6 @@
 {
   "autoReloadStartupModules": true,
-  "enableExternalLinks": false,
+  "enableExternalLinks": true,
   "errorNoticeTimeout": 5,
   "exposeInternalModules": true,
   "importTimeout": 10,
@@ -13,7 +13,9 @@
   ],
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
-  "preloadedExternalLinks": [],
+  "preloadedExternalLinks": [
+    "https://esm.sh/fast-xml-parser"
+  ],
   "preloadingRules": [
     "+/\\.m?[jt]s(?:\\.md)?$/iu"
   ],

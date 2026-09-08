@@ -2,5 +2,8 @@
   "devDependencies": {
     "obsidian": "^1.13.1",
     "obsidian-dataview": "^0.5.68"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.1"
   }
 }
