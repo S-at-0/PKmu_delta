@@ -1,0 +1,38 @@
+/* 1. 閲覧モード (Reading View) の修正 */
+.markdown-rendered pre[class*="language-"] code {
+    overflow-x: auto !important;
+    white-space: pre !important;
+}
+
+/* 2. 編集モード (Live Preview & Source Mode) の修正 */
+/* 本文・プロパティを内包するコンテナ全体をコンテンツの最大幅に合わせる */
+.markdown-source-view.mod-cm6 .cm-sizer{
+    min-width: 80ch !important;
+}
+
+
+/* コードブロックの背景 (bg) を、端まで引き伸ばす*/
+.markdown-source-view.mod-cm6 .metadata-container,
+.markdown-source-view.mod-cm6 .embedded-backlinks,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock-bg {
+    width: 100% !important;
+    left: 0 !important;
+}
+
+/* 3.ファイルエクスプローラーの修正*/
+/* ファイルエクスプローラー全体を横スクロール可能にする */
+.nav-files-container {
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+}
+/* フォルダやファイルの入れ子（コンテナ）の幅を、中身の最長幅に合わせる */
+.nav-folder, .nav-file {
+    min-width: max-content;
+}
+/* ファイル名・フォルダ名のテキストが省略（...）されるのを防ぐ */
+.nav-file-title-content, 
+.nav-folder-title-content {
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+}

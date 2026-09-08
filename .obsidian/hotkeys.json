@@ -1,0 +1,1440 @@
+{
+  "terminal:close-terminal": [],
+  "terminal:find-in-terminal": [],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "T"
+    }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "Y"
+    }
+  ],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "workspace:undo-close-pane": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "app:open-vault": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "app:reload": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt",
+        "Shift"
+      ],
+      "key": "["
+    }
+  ],
+  "editor:set-heading-1": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "1"
+    }
+  ],
+  "editor:set-heading-2": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "2"
+    }
+  ],
+  "editor:set-heading-3": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "3"
+    }
+  ],
+  "editor:set-heading-4": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "4"
+    }
+  ],
+  "editor:set-heading-5": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "5"
+    }
+  ],
+  "editor:set-heading-6": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "6"
+    }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:toggle-checklist-status": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-numbered-list": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "9"
+    }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "8"
+    }
+  ],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "P"
+    }
+  ],
+  "backlink:toggle-backlinks-in-document": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:toggle-strikethrough": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "S"
+    },
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Meta",
+        "Ctrl",
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "R"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "["
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "]"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt",
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "editor:toggle-comments": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "5"
+    }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "7"
+    }
+  ],
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt",
+        "Shift"
+      ],
+      "key": "7"
+    },
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "7"
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:insert-mathblock": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "workspace:export-pdf": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "P"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ],
+      "key": "P"
+    }
+  ],
+  "editor:toggle-inline-math": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "4"
+    }
+  ],
+  "editor:insert-link": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ],
+  "outgoing-links:open": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "O"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "G"
+    }
+  ],
+  "file-explorer:duplicate-file": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:delete-paragraph": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "insert-current-time": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Escape"
+    }
+  ],
+  "insert-current-date": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Escape"
+    }
+  ],
+  "editor:insert-table": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "markdown:edit-metadata-property": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": ";"
+    }
+  ],
+  "markdown:add-alias": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": ";"
+    }
+  ],
+  "workspace:copy-url": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "workspace:edit-file-title": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "workspace:toggle-stacked-tabs": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "T"
+    },
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:save-file": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "daily-notes:goto-next": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Q"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Meta",
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Meta",
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:replace-in-file-templater": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:_SrcBarn/template/_tplSwitcher.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:_SrcBarn/template/内部書留.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "modalforms:new-form": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "vscode-editor:create": [
+    {
+      "modifiers": [
+        "Meta",
+        "Alt"
+      ],
+      "key": "`"
+    }
+  ],
+  "templater-obsidian:_SrcBarn/template/_linkCreator.md": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "K"
+    }
+  ],
+  "templater-obsidian:_SrcBarn/template/当座書留.md": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "P"
+    }
+  ],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "quickadd:choice:c7d25d4c-10c2-4fcf-9801-bf82cc5a52c9": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "N"
+    }
+  ],
+  "quickadd:choice:fb90ed43-5735-4a54-8073-ef069c133b71": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:close-window": [],
+  "templater-obsidian:_SrcBarn/module/筆先仕物/linkCreator.md": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "K"
+    }
+  ],
+  "obsidian-git:commit-push-specified-message": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "templater-obsidian:_SrcBarn/module/筆先仕物/tplSwitcher.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:_SrcBarn/module/ID改め.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-excalidraw-plugin:save": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "workspaces:save": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta",
+        "Shift"
+      ],
+      "key": "W"
+    },
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "canvas-mindmap-helper:new-child-node": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "editor:follow-link": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:open-link-in-new-split": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "canvas-mindmap-helper:focus-down": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "canvas-mindmap-helper:focus-left": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "canvas-mindmap-helper:focus-right": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "canvas-mindmap-helper:focus-up": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "canvas-mindmap-helper:auto-layout": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "lovely-mindmap:blurNode": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:toggle-keyboard": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "canvas-mindmap-helper:new-node": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "customjs:invoke-backupWithNotice": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:open-link-in-new-window": [],
+  "templater-obsidian:create-SrcBarn/Templater/筆先仕物/noteOvule.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:SrcBarn/Templater/筆先仕物/linkCreator.md": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "K"
+    }
+  ],
+  "templater-obsidian:SrcBarn/templater/筆先仕物/linkCreator.md": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "N"
+    }
+  ],
+  "customjs:invoke-DossierSilex": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:f5bd22b9-8003-409a-9006-c60a6a34ca46": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "obsidian-new-note-new-window:nnnw-create-new-note-in-window": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "N"
+    }
+  ],
+  "quickadd:choice:78d1e64b-093b-4468-bf6a-b50e2993af03": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "quickadd:choice:2a0f590c-2b62-4ab2-89dd-d92801bbaa86": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "PKmu:backupWithNotice": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "S"
+    }
+  ],
+  "PKmu:dossier": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "E"
+    }
+  ],
+  "PKmu:turret": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "PKmu:logos": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "W"
+    }
+  ],
+  "quickadd:choice:d27630f6-b0a6-44cb-ac69-f4cd3b5572d1": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Q"
+    }
+  ],
+  "PKmu:moveFile": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "G"
+    }
+  ],
+  "app:open-settings": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": ","
+    }
+  ],
+  "mobile:quick-action": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": ","
+    }
+  ],
+  "PKmu:cytosis": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "quickadd:choice:9978bbed-58b9-42ab-85ba-0fabf8b52f82": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "quickadd:choice:9ac5d09c-211f-4b8b-9a96-5797bc529d2c": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ],
+      "key": "E"
+    }
+  ],
+  "PKmu:Mneme": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "PKmu:copyLinkText": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "keyboard-analyzer:show-shortcuts-analyzer-view": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "keyboard-analyzer:open-shortcuts-analyzer-view-new-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-git:switch-branch": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "V"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:unfold-all": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta",
+        "Shift"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:fold-all": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "/"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "keyboard-analyzer:open-quick-view": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "A"
+    }
+  ],
+  "global-search-and-replace:search-and-replace": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "workspaces:open-modal": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "W"
+    }
+  ],
+  "PKmu:switchWorkplace": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ],
+      "key": "W"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "PKmu:exoTally": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "PKmu:tally": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "PKmu:flipFile": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "G"
+    },
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:d9b417ec-5952-417f-87e5-c46c66bb1417": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Q"
+    }
+  ],
+  "workspace:goto-tab-2": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "workspace:goto-tab-3": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "workspace:goto-tab-4": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "workspace:goto-tab-5": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "5"
+    }
+  ],
+  "workspace:goto-tab-6": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ],
+  "workspace:goto-tab-8": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "8"
+    }
+  ],
+  "graph:open": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "G"
+    }
+  ],
+  "random-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "R"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": " "
+    }
+  ],
+  "webviewer:save-to-vault": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "webviewer:open-history": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "workspace:goto-tab-1": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "workspace:goto-tab-7": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "7"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "bookmarks:bookmark-current-section": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "dataview:dataview-force-refresh-views": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "R"
+    }
+  ],
+  "dataview:dataview-drop-cache": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-outliner:move-list-item-down": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-outliner:move-list-item-up": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-outliner:fold": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "obsidian-outliner:unfold": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "bookmarks:bookmark-current-heading": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "slides:start": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "notion-like-tables:add-column": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "notion-like-tables:add-row": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "L"
+    }
+  ],
+  "notion-like-tables:create": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "notion-like-tables:create-and-embed": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Meta"
+      ],
+      "key": "L"
+    }
+  ],
+  "notion-like-tables:delete-column": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "notion-like-tables:delete-row": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "webviewer:open": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "W"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": " "
+    }
+  ]
+}
