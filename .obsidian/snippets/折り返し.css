@@ -36,3 +36,10 @@
     overflow: visible !important;
     text-overflow: clip !important;
 }
+
+/*追記： 埋め込みのボーダー無効化*/
+body {
+    --embed-border-start: none !important;
+    --embed-padding: 0 !important;
+    --embed-background: rgba(0, 0, 0, 0.04) !important;
+}
