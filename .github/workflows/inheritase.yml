@@ -21,6 +21,7 @@ env:
     .obsidian/bookmarks.json
     .obsidian/plugins/terminal/
     .obsidian/plugins/modules/
+    SrcBarn/HyloTropos/
 
   SOURCE_BRANCH: "_Melete"
   IGNORE_BRANCHES_REGEX: "_Mneme"
