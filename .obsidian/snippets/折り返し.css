@@ -37,6 +37,22 @@
     text-overflow: clip !important;
 }
 
+/*4. Dataview Tablesの折り返し修正*/
+.block-language-dataviewjs {
+    /* コンテナの横スクロール */
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+
+    /* 柄内の折り返し */
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+
+    /* 幅の確かめ */
+    table {max-width: none !important}
+    th:nth-child(1) {max-width: 200px !important}
+}
+
 /*追記： 埋め込みのボーダー無効化*/
 body {
     --embed-border-start: none !important;
