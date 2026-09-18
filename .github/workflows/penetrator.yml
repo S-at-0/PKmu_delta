@@ -45,12 +45,34 @@ jobs:
           # リモートの追加とフェッチ
           git remote add upstream "https://github.com/${{ github.event.inputs.upstream_repo }}.git"
           git fetch upstream ${{ github.event.inputs.upstream_branch }}
+          # upstream から workflow ファイルを除外した一時ブランチを作成
+          UPSTREAM_REF="upstream/${{ github.event.inputs.upstream_branch }}"
+          FILTERED_BRANCH="melete/filtered-upstream"
+
+          git checkout -B "$FILTERED_BRANCH" "$UPSTREAM_REF"
+
+          # 対象ブランチ側の workflow を復元する
+          if git ls-tree -d --name-only "$TARGET_BRANCH" .github/workflows | grep -q .; then
+            git checkout "$TARGET_BRANCH" -- .github/workflows
+            git add .github/workflows
+          else
+            # 対象ブランチに workflow が存在しない場合は upstream 側を削除
+            git rm -r --ignore-unmatch .github/workflows
+            git add -u
+          fi
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: exclude workflow changes from upstream sync"
+          fi
+
+          echo "FILTERED_UPSTREAM_REF=$FILTERED_BRANCH" >> "$GITHUB_ENV"
+          git checkout "$TARGET_BRANCH"
 
       - name: Merge or Create PR
         id: sync
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          UPSTREAM_BRANCH: upstream/${{ github.event.inputs.upstream_branch }}
+          UPSTREAM_BRANCH: ${{ env.FILTERED_UPSTREAM_REF }}
         run: |
           # 1. 既に最新であるか確認
           if git merge-base --is-ancestor $UPSTREAM_BRANCH HEAD; then
