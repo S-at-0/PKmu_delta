@@ -1,0 +1,408 @@
+{
+  "workspaces": {
+    "CRM 値掛け": {
+      "main": {
+        "id": "dedb067e5bdeb66f",
+        "type": "split",
+        "children": [
+          {
+            "id": "a59185dff0179844",
+            "type": "split",
+            "children": [
+              {
+                "id": "e1d4d562cc3e83dd",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "e37722b23b4704a5",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-126-0669.md",
+                        "mode": "source",
+                        "source": true,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-126-0669"
+                    }
+                  },
+                  {
+                    "id": "3b979603cd404f65",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-143-0256.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-143-0256"
+                    }
+                  }
+                ],
+                "stacked": true
+              },
+              {
+                "id": "d7fea4d785289fb7",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "36bd94cd215c7ce9",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-126-1960/26-126-1960.md",
+                        "mode": "source",
+                        "source": true,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-126-1960"
+                    }
+                  },
+                  {
+                    "id": "1d1eff842ae9d873",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-126-1960/26-143-3235.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-143-3235"
+                    }
+                  },
+                  {
+                    "id": "0fc364bc73daedc3",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "26-264-2405.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-264-2405"
+                    }
+                  }
+                ],
+                "currentTab": 1,
+                "stacked": true
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "00a195b40cc103f4",
+        "type": "split",
+        "children": [
+          {
+            "id": "a66dc7dc86d92443",
+            "type": "tabs",
+            "dimension": 61.99649737302977,
+            "children": [
+              {
+                "id": "f1c27108e098d791",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "ファイルエクスプローラ"
+                }
+              },
+              {
+                "id": "81952a1b3692b1cc",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "omega",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "検索"
+                }
+              },
+              {
+                "id": "be4f47c061b7460e",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-bookmark",
+                  "title": "ブックマーク"
+                }
+              },
+              {
+                "id": "d28e713582316f5d",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer-history",
+                  "state": {},
+                  "icon": "lucide-clock",
+                  "title": "Web 履歴"
+                }
+              }
+            ]
+          },
+          {
+            "id": "bf5d11baaf345e29",
+            "type": "tabs",
+            "dimension": 38.003502626970224,
+            "children": [
+              {
+                "id": "9e7ebfb45002d833",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-126-0669.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 4,
+                      "localBacklinks": false,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": false,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": true,
+                      "textFadeMultiplier": -1,
+                      "nodeSizeMultiplier": 0.852625111706881,
+                      "lineSizeMultiplier": 5,
+                      "collapse-forces": false,
+                      "centerStrength": 0.708724307417337,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 126,
+                      "scale": 0.8314569101390553,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "ローカルグラフ"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 373.94140625
+      },
+      "right": {
+        "id": "48b59bd45615ce59",
+        "type": "split",
+        "children": [
+          {
+            "id": "935bd04492b8451c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9feddf1e878d5322",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "バックリンク"
+                }
+              },
+              {
+                "id": "df2262e7ed39540d",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "アウトゴーイングリンク"
+                }
+              },
+              {
+                "id": "b94710827bb48367",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "タグ"
+                }
+              },
+              {
+                "id": "952cc4b257d1ceeb",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "すべてのプロパティ"
+                }
+              },
+              {
+                "id": "84f8e8a8376c4f4f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "アウトライン"
+                }
+              },
+              {
+                "id": "313b7e1e4feacef5",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "ddd3b00cbbacccc5",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {},
+                  "icon": "lucide-file-signature",
+                  "title": "脚注"
+                }
+              }
+            ],
+            "currentTab": 5
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "cmdr:Sync with a saved connection": false,
+          "switcher:クイックスイッチャーを開く": true,
+          "graph:グラフビューを開く": true,
+          "canvas:新規キャンバスを作成": true,
+          "command-palette:コマンドパレットを開く": true,
+          "markdown-importer:Markdownインポーターを開く": true,
+          "zk-prefixer:新規ユニークノートの作成": true,
+          "random-note:ランダムノートを開く": true,
+          "workspaces:ワークスペースレイアウトを管理": true,
+          "bases:新規ベースを作成": true,
+          "cmdr:公験": false,
+          "cmdr:ランダムノート: ランダムノートを開く": false,
+          "cmdr:フラッシュカード": false,
+          "cmdr:レイアウトを管理": false,
+          "cmdr:クイックスイッチャー": false,
+          "cmdr:グラフビュー": false,
+          "cmdr:新規キャンバス": false,
+          "cmdr:コマンドパレット": false,
+          "cmdr:マップビューを開く": false,
+          "cmdr:Modulesキャッシュをクリア": false,
+          "modalforms:Edit forms": true,
+          "obsidian-git:Open Git source control": false,
+          "terminal:Open terminal": false
+        }
+      },
+      "active": "e37722b23b4704a5",
+      "mtime": "2026-09-21T08:25:59+09:00"
+    }
+  },
+  "active": "CRM 値掛け"
+}
