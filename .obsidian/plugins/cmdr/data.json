@@ -77,6 +77,12 @@
       "icon": "lucide-folder-sync",
       "name": "Sync with a saved connection",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-git:open-git-view",
+      "icon": "lucide-git-pull-request",
+      "name": "Git source control view",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
