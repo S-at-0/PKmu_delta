@@ -19,9 +19,9 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-126-0669.md",
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-3821.md",
                         "mode": "source",
-                        "source": true,
+                        "source": false,
                         "backlinks": true,
                         "backlinkOpts": {
                           "collapseAll": false,
@@ -34,7 +34,103 @@
                         }
                       },
                       "icon": "lucide-file",
-                      "title": "26-126-0669"
+                      "title": "26-126-3821"
+                    }
+                  },
+                  {
+                    "id": "af98aff5a8ed12d4",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "26-268-1524.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-268-1524"
+                    }
+                  },
+                  {
+                    "id": "01aab1b181080a38",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-264-2405.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-264-2405"
+                    }
+                  },
+                  {
+                    "id": "cdd21659e0368a90",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-264-2405.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-264-2405"
+                    }
+                  },
+                  {
+                    "id": "c5fd953622c3dbea",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-267-5735/26-267-5735.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-267-5735"
                     }
                   },
                   {
@@ -44,7 +140,7 @@
                       "type": "markdown",
                       "state": {
                         "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-126-1960/26-139-5322.md",
-                        "mode": "preview",
+                        "mode": "source",
                         "source": true,
                         "backlinks": true,
                         "backlinkOpts": {
@@ -62,12 +158,12 @@
                     }
                   },
                   {
-                    "id": "24782ad123e8ab64",
+                    "id": "1ac3631533ddf4d7",
                     "type": "leaf",
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "_事地/手形/_券契/25-282-1276/仕物/26-147-0914.md",
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-3821.md",
                         "mode": "source",
                         "source": false,
                         "backlinks": true,
@@ -82,11 +178,35 @@
                         }
                       },
                       "icon": "lucide-file",
-                      "title": "26-147-0914"
+                      "title": "26-126-3821"
+                    }
+                  },
+                  {
+                    "id": "1e756b999eedd360",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "SrcBarn/付け型/26-192-5514.md",
+                        "mode": "source",
+                        "source": true,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-192-5514"
                     }
                   }
                 ],
-                "currentTab": 2,
+                "currentTab": 1,
                 "stacked": true
               },
               {
@@ -123,7 +243,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "26-264-2405.md",
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-264-2405.md",
                         "mode": "source",
                         "source": false,
                         "backlinks": true,
@@ -140,8 +260,57 @@
                       "icon": "lucide-file",
                       "title": "26-264-2405"
                     }
+                  },
+                  {
+                    "id": "9e59201e2cfd8638",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-126-0669.md",
+                        "mode": "source",
+                        "source": true,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-126-0669"
+                    }
+                  },
+                  {
+                    "id": "e0ac76ff352e580c",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "_事地/手形/_券契/手形/26-112-1650/26-126-0669/26-126-0669.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "26-126-0669"
+                    }
                   }
                 ],
+                "currentTab": 2,
                 "stacked": true
               }
             ],
@@ -180,7 +349,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "omega",
+                    "query": "console.log",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -214,7 +383,8 @@
                   "title": "Web 履歴"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "bf5d11baaf345e29",
@@ -227,7 +397,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "_事地/手形/_券契/25-282-1276/仕物/26-147-0914.md",
+                    "file": "26-268-1524.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -250,7 +420,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 126,
-                      "scale": 1.1307734905271236,
+                      "scale": 1.046224278162228,
                       "close": true
                     }
                   },
@@ -352,8 +522,8 @@
                 "state": {
                   "type": "git-view",
                   "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
+                  "icon": "lucide-ghost",
+                  "title": "git-view"
                 }
               },
               {
@@ -373,10 +543,12 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
+          "cmdr:Git source control view": false,
           "cmdr:Sync with a saved connection": false,
           "switcher:クイックスイッチャーを開く": true,
           "graph:グラフビューを開く": true,
@@ -402,8 +574,8 @@
           "terminal:Open terminal": false
         }
       },
-      "active": "24782ad123e8ab64",
-      "mtime": "2026-09-23T07:18:30+09:00"
+      "active": "af98aff5a8ed12d4",
+      "mtime": "2026-09-25T09:37:16+09:00"
     }
   },
   "active": "CRM 値掛け"
