@@ -1432,7 +1432,8 @@
     },
     {
       "modifiers": [
-        "Ctrl"
+        "Ctrl",
+        "Meta"
       ],
       "key": " "
     }
