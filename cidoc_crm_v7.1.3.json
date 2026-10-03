@@ -3608,81 +3608,113 @@
 	},
 	"crm_PoP": {
 		"P3.1": {
+			"domain": "P3",
+			"range": "E55",
 			"directName": "has type",
 			"fullName": "P3.1 has type: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P14.1": {
+			"domain": "P14",
+			"range": "E55",
 			"directName": "in the role of",
 			"fullName": "P14.1 in the role of: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P16.1": {
+			"domain": "P16",
+			"range": "E55",
 			"directName": "mode of use",
 			"fullName": "P16.1 mode of use: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P19.1": {
+			"domain": "P19",
+			"range": "E55",
 			"directName": "mode of use",
 			"fullName": "P19.1 mode of use: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P62.1": {
+			"domain": "P62",
+			"range": "E55",
 			"directName": "mode of depiction",
 			"fullName": "P62.1 mode of depiction: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P67.1": {
+			"domain": "P67",
+			"range": "E55",
 			"directName": "has type",
 			"fullName": "P67.1 has type: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P69.1": {
+			"domain": "P69",
+			"range": "E55",
 			"directName": "has type",
 			"fullName": "P69.1 has type: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P102.1": {
+			"domain": "P102",
+			"range": "E55",
 			"directName": "has type",
 			"fullName": "P102.1 has type: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P107.1": {
+			"domain": "P107",
+			"range": "E55",
 			"directName": "kind of member",
 			"fullName": "P107.1 kind of member: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P130.1": {
+			"domain": "P130",
+			"range": "E55",
 			"directName": "kind of similarity",
 			"fullName": "P130.1 kind of similarity: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P136.1": {
+			"domain": "P136",
+			"range": "E55",
 			"directName": "in the taxonomic role",
 			"fullName": "P136.1 in the taxonomic role: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P137.1": {
+			"domain": "P137",
+			"range": "E55",
 			"directName": "in the taxonomic role",
 			"fullName": "P137.1 in the taxonomic role: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P138.1": {
+			"domain": "P138",
+			"range": "E55",
 			"directName": "mode of representation",
 			"fullName": "P138.1 mode of representation: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P139.1": {
+			"domain": "P139",
+			"range": "E55",
 			"directName": "has type",
 			"fullName": "P139.1 has type: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P144.1": {
+			"domain": "P144",
+			"range": "E55",
 			"directName": "kind of member",
 			"fullName": "P144.1 kind of member: E55 Type",
 			"quantification": "(0,n:0,n)"
 		},
 		"P189.1": {
+			"domain": "P189",
+			"range": "E55",
 			"directName": "has type",
 			"fullName": "P189.1 has type: E55 Type",
 			"quantification": "(0,n:0,n)"
