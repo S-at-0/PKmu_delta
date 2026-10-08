@@ -1,7 +1,7 @@
 const status = dv.span("⏳初期化中…");
 const start = Date.now()
 while (!globalThis?.syzygy?.isReady){
-    await sleep(500);
+    await sleep(10);
     //if(Date.now() - start > 5000) throw new Error(dv.current().file.name+": khoroScope timeout");
 } status.remove();
 syzygy.isReady = false;
