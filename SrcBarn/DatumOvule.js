@@ -87,11 +87,16 @@ const noesis = {
 const transDunamis = isKhorai => hyle => {
     const sema = typeof hyle === "object"?
         hyle?.file?.path ?? hyle?.path: hyle;
-    return isKhorai? dv.page(String(sema)) :
-        app.metadataCache.getFirstLinkpathDest(String(sema), "") ||
-        app.vault.getFileByPath(sema) ||
-        app.vault.getFolderByPath(sema) ||
-        app.vault.getAbstractFileByPath(sema);
+    try {
+        return isKhorai ? dv.page(String(sema)) :
+            app.metadataCache.getFirstLinkpathDest(String(sema), "") ||
+            app.vault.getFileByPath(sema) ||
+            app.vault.getFolderByPath(sema) ||
+            app.vault.getAbstractFileByPath(sema);
+    } catch (e) {
+        console.warn("transDunamis error:", e, "hyle:", hyle, "sema:", sema);
+        return null;
+    }
 };
 const kataStasis = khorai => async hyle =>{//TODO mintStampと入れ替え
     const kytos = setTimeout(_=>{throw new Error("getting TFile timeout")},500);
