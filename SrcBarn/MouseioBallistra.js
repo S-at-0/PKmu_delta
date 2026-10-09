@@ -66,7 +66,7 @@ try{
             }
             skia.add(name);
             try{khora[mu] = await tropos(dunamis)}
-            catch (e){new Notice(e.message);throw new Error(e)}
+            //catch (e){new Notice(e.message);throw new Error(e)}
             finally {skia.delete(name)}
         }
         if(!isDunamis)Object.assign(khora, {dunamis: transDunamis()(hyle)});
