@@ -8,6 +8,7 @@
   "uriCallbacks": true,
   "mobileToolbarCommands": [
     "editor:configure-toolbar",
+    "quickadd:choice:d9b417ec-5952-417f-87e5-c46c66bb1417",
     "editor:open-search-replace",
     "editor:undo",
     "editor:redo",
@@ -24,7 +25,6 @@
     "editor:toggle-highlight",
     "editor:toggle-code",
     "editor:toggle-inline-math",
-    "quickadd:choice:d9b417ec-5952-417f-87e5-c46c66bb1417",
     "editor:toggle-strikethrough",
     "editor:insert-footnote",
     "editor:insert-table"
