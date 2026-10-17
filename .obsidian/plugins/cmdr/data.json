@@ -90,6 +90,12 @@
   "statusBar": [],
   "pageHeader": [
     {
+      "id": "PKmu:copyLinkText",
+      "icon": "lucide-copy",
+      "name": "PKµ: リンクをコピー",
+      "mode": "mobile"
+    },
+    {
       "id": "PKmu:tally",
       "icon": "lucide-book-key",
       "name": "PKµ: 手形付け",
