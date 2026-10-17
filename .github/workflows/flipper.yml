@@ -34,7 +34,7 @@ jobs:
       - name: transfer to Mneme
         run: | # 現在のブランチから Mneme ブランチへ '渡場' ディレクトリを転送
           git checkout _Mneme
-          git restore --source ${{ github.ref_name }} -- 渡場/
+          git restore --overlay ${{ github.ref_name }} -- 渡場/
           git add -A
           git commit -m "flip from ${{ github.ref }}"
           git push origin _Mneme
