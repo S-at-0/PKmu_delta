@@ -3,7 +3,7 @@ name: PKµ flipper (any)
 on:
   push:
     paths: '渡場/**'
-    branches: '!_Mneme'
+    branches-ignore: '_Mneme'
   workflow_dispatch:
 
 jobs:
