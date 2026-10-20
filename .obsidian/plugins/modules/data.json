@@ -1,9 +1,9 @@
 {
   "autoReloadStartupModules": true,
   "enableExternalLinks": true,
-  "errorNoticeTimeout": 5,
+  "errorNoticeTimeout": 20,
   "exposeInternalModules": true,
-  "importTimeout": 10,
+  "importTimeout": 20,
   "language": "",
   "markdownCodeBlockLanguagesToLoad": [
     "JS",
@@ -11,7 +11,7 @@
     "JavaScript",
     "TypeScript"
   ],
-  "noticeTimeout": 5,
+  "noticeTimeout": 20,
   "openChangelogOnUpdate": true,
   "preloadedExternalLinks": [
     "https://esm.sh/fast-xml-parser"
