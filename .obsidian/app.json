@@ -31,5 +31,9 @@
   ],
   "mobilePullAction": "command-palette:open",
   "mobileQuickRibbonItem": "zk-prefixer:新規ユニークノートの作成",
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "userIgnoreFilters": [
+    "SrcBarn/",
+    "node_modules/"
+  ]
 }
