@@ -15,5 +15,5 @@ try{
     if(!noesis)dv.span("⚠️眺めがありません")
     else await syzygy(noesis)
         .then(f=>f.call(dv,noema))
-        .catch(e =>{console.error(e);new Notice(e.message)});
+        .catch(e =>{new Notice(e.message); throw new Error(e)});
 } finally{syzygy.isReady = true}
