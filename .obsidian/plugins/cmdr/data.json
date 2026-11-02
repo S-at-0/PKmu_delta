@@ -105,6 +105,7 @@
   ],
   "macros": [],
   "explorer": [],
+  "emptyState": [],
   "textToolbarCommands": [],
   "hide": {
     "statusbar": [
@@ -131,7 +132,9 @@
       "Markdownインポーターを開く",
       "カスタマイズ同期を表示",
       "Edit forms"
-    ]
+    ],
+    "editorMenuItems": [],
+    "fileMenuItems": []
   },
   "spacing": "5",
   "advancedToolbar": {
@@ -143,5 +146,6 @@
     "mappedIcons": [],
     "tooltips": false,
     "heightOffset": 1
-  }
+  },
+  "spacingReset": true
 }

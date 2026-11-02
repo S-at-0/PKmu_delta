@@ -6980,14 +6980,14 @@ function create_if_block_6(ctx) {
       set_input_value(
         input,
         /*$value*/
-        ctx[3]
+        ctx[4]
       );
       if (!mounted) {
         dispose = listen(
           input,
           "input",
           /*input_input_handler_6*/
-          ctx[10]
+          ctx[11]
         );
         mounted = true;
       }
@@ -7003,11 +7003,11 @@ function create_if_block_6(ctx) {
         );
       }
       if (dirty & /*$value*/
-      8) {
+      16) {
         set_input_value(
           input,
           /*$value*/
-          ctx2[3]
+          ctx2[4]
         );
       }
     },
@@ -7040,14 +7040,14 @@ function create_if_block_5(ctx) {
       set_input_value(
         input,
         /*$value*/
-        ctx[3]
+        ctx[4]
       );
       if (!mounted) {
         dispose = listen(
           input,
           "input",
           /*input_input_handler_5*/
-          ctx[9]
+          ctx[10]
         );
         mounted = true;
       }
@@ -7063,11 +7063,11 @@ function create_if_block_5(ctx) {
         );
       }
       if (dirty & /*$value*/
-      8) {
+      16) {
         set_input_value(
           input,
           /*$value*/
-          ctx2[3]
+          ctx2[4]
         );
       }
     },
@@ -7100,14 +7100,14 @@ function create_if_block_4(ctx) {
       set_input_value(
         input,
         /*$value*/
-        ctx[3]
+        ctx[4]
       );
       if (!mounted) {
         dispose = listen(
           input,
           "input",
           /*input_input_handler_4*/
-          ctx[8]
+          ctx[9]
         );
         mounted = true;
       }
@@ -7123,11 +7123,11 @@ function create_if_block_4(ctx) {
         );
       }
       if (dirty & /*$value*/
-      8) {
+      16) {
         set_input_value(
           input,
           /*$value*/
-          ctx2[3]
+          ctx2[4]
         );
       }
     },
@@ -7154,20 +7154,26 @@ function create_if_block_3(ctx) {
         /*name*/
         ctx[2]
       );
+      attr(
+        input,
+        "placeholder",
+        /*placeholder*/
+        ctx[3]
+      );
     },
     m(target, anchor) {
       insert(target, input, anchor);
       set_input_value(
         input,
         /*$value*/
-        ctx[3]
+        ctx[4]
       );
       if (!mounted) {
         dispose = listen(
           input,
           "input",
           /*input_input_handler_3*/
-          ctx[7]
+          ctx[8]
         );
         mounted = true;
       }
@@ -7182,12 +7188,21 @@ function create_if_block_3(ctx) {
           ctx2[2]
         );
       }
-      if (dirty & /*$value*/
+      if (dirty & /*placeholder*/
       8) {
+        attr(
+          input,
+          "placeholder",
+          /*placeholder*/
+          ctx2[3]
+        );
+      }
+      if (dirty & /*$value*/
+      16) {
         set_input_value(
           input,
           /*$value*/
-          ctx2[3]
+          ctx2[4]
         );
       }
     },
@@ -7214,20 +7229,26 @@ function create_if_block_2(ctx) {
         /*name*/
         ctx[2]
       );
+      attr(
+        input,
+        "placeholder",
+        /*placeholder*/
+        ctx[3]
+      );
     },
     m(target, anchor) {
       insert(target, input, anchor);
       set_input_value(
         input,
         /*$value*/
-        ctx[3]
+        ctx[4]
       );
       if (!mounted) {
         dispose = listen(
           input,
           "input",
           /*input_input_handler_2*/
-          ctx[6]
+          ctx[7]
         );
         mounted = true;
       }
@@ -7242,13 +7263,22 @@ function create_if_block_2(ctx) {
           ctx2[2]
         );
       }
+      if (dirty & /*placeholder*/
+      8) {
+        attr(
+          input,
+          "placeholder",
+          /*placeholder*/
+          ctx2[3]
+        );
+      }
       if (dirty & /*$value*/
-      8 && input.value !== /*$value*/
-      ctx2[3]) {
+      16 && input.value !== /*$value*/
+      ctx2[4]) {
         set_input_value(
           input,
           /*$value*/
-          ctx2[3]
+          ctx2[4]
         );
       }
     },
@@ -7275,20 +7305,26 @@ function create_if_block_1(ctx) {
         /*name*/
         ctx[2]
       );
+      attr(
+        input,
+        "placeholder",
+        /*placeholder*/
+        ctx[3]
+      );
     },
     m(target, anchor) {
       insert(target, input, anchor);
       set_input_value(
         input,
         /*$value*/
-        ctx[3]
+        ctx[4]
       );
       if (!mounted) {
         dispose = listen(
           input,
           "input",
           /*input_input_handler_1*/
-          ctx[5]
+          ctx[6]
         );
         mounted = true;
       }
@@ -7303,13 +7339,22 @@ function create_if_block_1(ctx) {
           ctx2[2]
         );
       }
+      if (dirty & /*placeholder*/
+      8) {
+        attr(
+          input,
+          "placeholder",
+          /*placeholder*/
+          ctx2[3]
+        );
+      }
       if (dirty & /*$value*/
-      8 && input.value !== /*$value*/
-      ctx2[3]) {
+      16 && input.value !== /*$value*/
+      ctx2[4]) {
         set_input_value(
           input,
           /*$value*/
-          ctx2[3]
+          ctx2[4]
         );
       }
     },
@@ -7337,20 +7382,26 @@ function create_if_block(ctx) {
         /*name*/
         ctx[2]
       );
+      attr(
+        input,
+        "placeholder",
+        /*placeholder*/
+        ctx[3]
+      );
     },
     m(target, anchor) {
       insert(target, input, anchor);
       set_input_value(
         input,
         /*$value*/
-        ctx[3]
+        ctx[4]
       );
       if (!mounted) {
         dispose = listen(
           input,
           "input",
           /*input_input_handler*/
-          ctx[4]
+          ctx[5]
         );
         mounted = true;
       }
@@ -7365,13 +7416,22 @@ function create_if_block(ctx) {
           ctx2[2]
         );
       }
+      if (dirty & /*placeholder*/
+      8) {
+        attr(
+          input,
+          "placeholder",
+          /*placeholder*/
+          ctx2[3]
+        );
+      }
       if (dirty & /*$value*/
-      8 && to_number(input.value) !== /*$value*/
-      ctx2[3]) {
+      16 && to_number(input.value) !== /*$value*/
+      ctx2[4]) {
         set_input_value(
           input,
           /*$value*/
-          ctx2[3]
+          ctx2[4]
         );
       }
     },
@@ -7462,12 +7522,13 @@ function create_fragment(ctx) {
   };
 }
 function instance($$self, $$props, $$invalidate) {
-  let $value, $$unsubscribe_value = noop, $$subscribe_value = () => ($$unsubscribe_value(), $$unsubscribe_value = subscribe(value, ($$value) => $$invalidate(3, $value = $$value)), value);
+  let $value, $$unsubscribe_value = noop, $$subscribe_value = () => ($$unsubscribe_value(), $$unsubscribe_value = subscribe(value, ($$value) => $$invalidate(4, $value = $$value)), value);
   $$self.$$.on_destroy.push(() => $$unsubscribe_value());
   let { value } = $$props;
   $$subscribe_value();
   let { inputType: inputType2 } = $$props;
   let { name = "" } = $$props;
+  let { placeholder: placeholder2 = "" } = $$props;
   function input_input_handler() {
     $value = to_number(this.value);
     value.set($value);
@@ -7503,11 +7564,14 @@ function instance($$self, $$props, $$invalidate) {
       $$invalidate(1, inputType2 = $$props2.inputType);
     if ("name" in $$props2)
       $$invalidate(2, name = $$props2.name);
+    if ("placeholder" in $$props2)
+      $$invalidate(3, placeholder2 = $$props2.placeholder);
   };
   return [
     value,
     inputType2,
     name,
+    placeholder2,
     $value,
     input_input_handler,
     input_input_handler_1,
@@ -7521,7 +7585,12 @@ function instance($$self, $$props, $$invalidate) {
 var InputField = class extends SvelteComponent {
   constructor(options) {
     super();
-    init4(this, options, instance, create_fragment, safe_not_equal, { value: 0, inputType: 1, name: 2 });
+    init4(this, options, instance, create_fragment, safe_not_equal, {
+      value: 0,
+      inputType: 1,
+      name: 2,
+      placeholder: 3
+    });
   }
 };
 var InputField_default = InputField;
@@ -11677,7 +11746,8 @@ var InputDataviewSourceSchema = object({
 });
 var InputBasicSchema = object({
   type: InputBasicTypeSchema,
-  hidden: optional(boolean(), false)
+  hidden: optional(boolean(), false),
+  placeholder: optional(string())
 });
 var InputSelectFixedSchema = object({
   type: literal("select"),
@@ -12050,13 +12120,19 @@ function create_default_slot3(ctx) {
       textarea = element("textarea");
       attr(textarea, "name", textarea_name_value = /*field*/
       ctx[0].name);
+      attr(
+        textarea,
+        "placeholder",
+        /*placeholder*/
+        ctx[3]
+      );
     },
     m(target, anchor) {
       insert(target, textarea, anchor);
       set_input_value(
         textarea,
         /*$value*/
-        ctx[3]
+        ctx[4]
       );
       if (!mounted) {
         dispose = [
@@ -12064,10 +12140,10 @@ function create_default_slot3(ctx) {
             textarea,
             "input",
             /*textarea_input_handler*/
-            ctx[5]
+            ctx[6]
           ),
           action_destroyer(customizeTextArea_action = /*customizeTextArea*/
-          ctx[4].call(null, textarea))
+          ctx[5].call(null, textarea))
         ];
         mounted = true;
       }
@@ -12078,12 +12154,21 @@ function create_default_slot3(ctx) {
       ctx2[0].name)) {
         attr(textarea, "name", textarea_name_value);
       }
-      if (dirty & /*$value*/
+      if (dirty & /*placeholder*/
       8) {
+        attr(
+          textarea,
+          "placeholder",
+          /*placeholder*/
+          ctx2[3]
+        );
+      }
+      if (dirty & /*$value*/
+      16) {
         set_input_value(
           textarea,
           /*$value*/
-          ctx2[3]
+          ctx2[4]
         );
       }
     },
@@ -12150,8 +12235,8 @@ function create_fragment12(ctx) {
       1)
         obsidianinputwrapper_changes.description = /*field*/
         ctx2[0].description;
-      if (dirty & /*$$scope, field, $value*/
-      73) {
+      if (dirty & /*$$scope, field, placeholder, $value*/
+      153) {
         obsidianinputwrapper_changes.$$scope = { dirty, ctx: ctx2 };
       }
       obsidianinputwrapper.$set(obsidianinputwrapper_changes);
@@ -12172,12 +12257,13 @@ function create_fragment12(ctx) {
   };
 }
 function instance12($$self, $$props, $$invalidate) {
-  let $value, $$unsubscribe_value = noop, $$subscribe_value = () => ($$unsubscribe_value(), $$unsubscribe_value = subscribe(value, ($$value) => $$invalidate(3, $value = $$value)), value);
+  let $value, $$unsubscribe_value = noop, $$subscribe_value = () => ($$unsubscribe_value(), $$unsubscribe_value = subscribe(value, ($$value) => $$invalidate(4, $value = $$value)), value);
   $$self.$$.on_destroy.push(() => $$unsubscribe_value());
   let { field } = $$props;
   let { value } = $$props;
   $$subscribe_value();
   let { errors } = $$props;
+  let { placeholder: placeholder2 = "" } = $$props;
   function customizeTextArea(el) {
     if (import_obsidian10.Platform.isIosApp)
       el.style.width = "100%";
@@ -12196,13 +12282,28 @@ function instance12($$self, $$props, $$invalidate) {
       $$subscribe_value($$invalidate(1, value = $$props2.value));
     if ("errors" in $$props2)
       $$invalidate(2, errors = $$props2.errors);
+    if ("placeholder" in $$props2)
+      $$invalidate(3, placeholder2 = $$props2.placeholder);
   };
-  return [field, value, errors, $value, customizeTextArea, textarea_input_handler];
+  return [
+    field,
+    value,
+    errors,
+    placeholder2,
+    $value,
+    customizeTextArea,
+    textarea_input_handler
+  ];
 }
 var InputTextArea = class extends SvelteComponent {
   constructor(options) {
     super();
-    init4(this, options, instance12, create_fragment12, safe_not_equal, { field: 0, value: 1, errors: 2 });
+    init4(this, options, instance12, create_fragment12, safe_not_equal, {
+      field: 0,
+      value: 1,
+      errors: 2,
+      placeholder: 3
+    });
   }
 };
 var InputTextArea_default = InputTextArea;
@@ -13624,6 +13725,7 @@ function create_if_block_8(ctx) {
   };
 }
 function create_if_block_7(ctx) {
+  var _a;
   let inputtextarea;
   let current;
   inputtextarea = new InputTextArea_default({
@@ -13639,6 +13741,10 @@ function create_if_block_7(ctx) {
       errors: (
         /*errors*/
         ctx[6]
+      ),
+      placeholder: (
+        /*definition*/
+        (_a = ctx[0].input.placeholder) != null ? _a : ""
       )
     }
   });
@@ -13651,6 +13757,7 @@ function create_if_block_7(ctx) {
       current = true;
     },
     p(ctx2, dirty) {
+      var _a2;
       const inputtextarea_changes = {};
       if (dirty & /*definition*/
       1)
@@ -13664,6 +13771,10 @@ function create_if_block_7(ctx) {
       64)
         inputtextarea_changes.errors = /*errors*/
         ctx2[6];
+      if (dirty & /*definition*/
+      1)
+        inputtextarea_changes.placeholder = /*definition*/
+        (_a2 = ctx2[0].input.placeholder) != null ? _a2 : "";
       inputtextarea.$set(inputtextarea_changes);
     },
     i(local) {
@@ -14028,6 +14139,7 @@ function create_if_block_22(ctx) {
   };
 }
 function create_else_block_1(ctx) {
+  var _a;
   let inputfield;
   let current;
   inputfield = new InputField_default({
@@ -14043,6 +14155,10 @@ function create_else_block_1(ctx) {
       inputType: (
         /*definition*/
         ctx[0].input.type
+      ),
+      placeholder: (
+        /*definition*/
+        (_a = ctx[0].input.placeholder) != null ? _a : ""
       )
     }
   });
@@ -14055,6 +14171,7 @@ function create_else_block_1(ctx) {
       current = true;
     },
     p(ctx2, dirty) {
+      var _a2;
       const inputfield_changes = {};
       if (dirty & /*definition*/
       1)
@@ -14068,6 +14185,10 @@ function create_else_block_1(ctx) {
       1)
         inputfield_changes.inputType = /*definition*/
         ctx2[0].input.type;
+      if (dirty & /*definition*/
+      1)
+        inputfield_changes.placeholder = /*definition*/
+        (_a2 = ctx2[0].input.placeholder) != null ? _a2 : "";
       inputfield.$set(inputfield_changes);
     },
     i(local) {
@@ -16977,6 +17098,18 @@ var InputTypeReadable = {
   image: "Image",
   file: "File"
 };
+function inputUsesPlaceholder(type) {
+  switch (type) {
+    case "text":
+    case "textarea":
+    case "number":
+    case "email":
+    case "tel":
+      return true;
+    default:
+      return false;
+  }
+}
 function validateFields(fields) {
   const result2 = safeParse(FieldListSchema, fields);
   if (result2.success) {
@@ -17049,16 +17182,31 @@ var FormBuilder = class {
         this.reporter
       );
     };
-    this.addTextField = ({ name, label, description, required, hidden }) => this.addField({ name, label, description, required }, { type: "text", hidden: Boolean(hidden) });
+    this.addTextField = ({ name, label, description, required, hidden, placeholder: placeholder2 }) => this.addField(
+      { name, label, description, required },
+      { type: "text", hidden: Boolean(hidden), ...placeholder2 ? { placeholder: placeholder2 } : {} }
+    );
     this.text = this.addTextField;
-    this.addNumberField = ({ name, label, description, required, hidden }) => this.addField({ name, label, description, required }, { type: "number", hidden: Boolean(hidden) });
+    this.addNumberField = ({ name, label, description, required, hidden, placeholder: placeholder2 }) => this.addField(
+      { name, label, description, required },
+      { type: "number", hidden: Boolean(hidden), ...placeholder2 ? { placeholder: placeholder2 } : {} }
+    );
     this.addDateField = ({ name, label, description, required, hidden }) => this.addField({ name, label, description, required }, { type: "date", hidden: Boolean(hidden) });
     this.addTimeField = ({ name, label, description, required, hidden }) => this.addField({ name, label, description, required }, { type: "time", hidden: Boolean(hidden) });
     this.addDateTimeField = ({ name, label, description, required, hidden }) => this.addField({ name, label, description, required }, { type: "datetime", hidden: Boolean(hidden) });
-    this.addTextareaField = ({ name, label, description, required, hidden }) => this.addField({ name, label, description, required }, { type: "textarea", hidden: Boolean(hidden) });
+    this.addTextareaField = ({ name, label, description, required, hidden, placeholder: placeholder2 }) => this.addField(
+      { name, label, description, required },
+      { type: "textarea", hidden: Boolean(hidden), ...placeholder2 ? { placeholder: placeholder2 } : {} }
+    );
     this.addToggleField = ({ name, label, description, required, hidden }) => this.addField({ name, label, description, required }, { type: "toggle", hidden: Boolean(hidden) });
-    this.addEmailField = ({ name, label, description, required, hidden }) => this.addField({ name, label, description, required }, { type: "email", hidden: Boolean(hidden) });
-    this.addTelField = ({ name, label, description, required, hidden }) => this.addField({ name, label, description, required }, { type: "tel", hidden: Boolean(hidden) });
+    this.addEmailField = ({ name, label, description, required, hidden, placeholder: placeholder2 }) => this.addField(
+      { name, label, description, required },
+      { type: "email", hidden: Boolean(hidden), ...placeholder2 ? { placeholder: placeholder2 } : {} }
+    );
+    this.addTelField = ({ name, label, description, required, hidden, placeholder: placeholder2 }) => this.addField(
+      { name, label, description, required },
+      { type: "tel", hidden: Boolean(hidden), ...placeholder2 ? { placeholder: placeholder2 } : {} }
+    );
     this.addNoteField = ({ name, label, description, required, folder }) => this.addField({ name, label, description, required }, { type: "note", folder });
     this.addFolderField = ({
       name,
@@ -23921,35 +24069,42 @@ function add_css16(target) {
 }
 function get_each_context9(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[53] = list[i];
-  child_ctx[56] = list;
-  child_ctx[57] = i;
+  child_ctx[54] = list[i];
+  child_ctx[57] = list;
+  child_ctx[58] = i;
   const constants_0 = `desc_${/*index*/
-  child_ctx[57]}`;
-  child_ctx[54] = constants_0;
+  child_ctx[58]}`;
+  child_ctx[55] = constants_0;
   const constants_1 = `delete_${/*index*/
-  child_ctx[57]}`;
-  child_ctx[55] = constants_1;
+  child_ctx[58]}`;
+  child_ctx[56] = constants_1;
   return child_ctx;
 }
 function get_if_ctx2(ctx) {
   const child_ctx = ctx.slice();
   const constants_0 = `min_${/*index*/
-  child_ctx[57]}`;
-  child_ctx[58] = constants_0;
+  child_ctx[58]}`;
+  child_ctx[59] = constants_0;
   const constants_1 = `max_${/*index*/
-  child_ctx[57]}`;
-  child_ctx[59] = constants_1;
+  child_ctx[58]}`;
+  child_ctx[60] = constants_1;
+  return child_ctx;
+}
+function get_if_ctx_12(ctx) {
+  const child_ctx = ctx.slice();
+  const constants_0 = `placeholder_${/*index*/
+  child_ctx[58]}`;
+  child_ctx[61] = constants_0;
   return child_ctx;
 }
 function get_each_context_15(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[60] = list[i];
+  child_ctx[62] = list[i];
   return child_ctx;
 }
 function get_each_context_22(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[63] = list[i];
+  child_ctx[65] = list[i];
   return child_ctx;
 }
 function create_else_block7(ctx) {
@@ -23993,7 +24148,7 @@ function create_else_block7(ctx) {
   let dispose;
   let if_block = (
     /*errors*/
-    ctx[8].length > 0 && create_if_block_133(ctx)
+    ctx[8].length > 0 && create_if_block_143(ctx)
   );
   let each_value = ensure_array_like(
     /*definition*/
@@ -24177,7 +24332,7 @@ function create_else_block7(ctx) {
             button0,
             "click",
             /*click_handler_5*/
-            ctx[51]
+            ctx[52]
           ),
           listen(
             button1,
@@ -24236,7 +24391,7 @@ function create_else_block7(ctx) {
         if (if_block) {
           if_block.p(ctx, dirty);
         } else {
-          if_block = create_if_block_133(ctx);
+          if_block = create_if_block_143(ctx);
           if_block.c();
           if_block.m(fieldset0, null);
         }
@@ -24418,7 +24573,7 @@ function create_if_block15(ctx) {
     }
   };
 }
-function create_if_block_133(ctx) {
+function create_if_block_143(ctx) {
   let div;
   let h3;
   let t2;
@@ -24488,11 +24643,11 @@ function create_if_block_133(ctx) {
     }
   };
 }
-function create_if_block_143(ctx) {
+function create_if_block_152(ctx) {
   let t0;
   let t1_value = (
     /*error*/
-    ctx[63].path + ""
+    ctx[65].path + ""
   );
   let t1;
   return {
@@ -24507,7 +24662,7 @@ function create_if_block_143(ctx) {
     p(ctx2, dirty) {
       if (dirty[0] & /*errors*/
       256 && t1_value !== (t1_value = /*error*/
-      ctx2[63].path + ""))
+      ctx2[65].path + ""))
         set_data(t1, t1_value);
     },
     d(detaching) {
@@ -24522,7 +24677,7 @@ function create_each_block_22(ctx) {
   let li;
   let t0_value = (
     /*error*/
-    ctx[63].message + ""
+    ctx[65].message + ""
   );
   let t0;
   let t1;
@@ -24533,14 +24688,14 @@ function create_each_block_22(ctx) {
   let dispose;
   let if_block = (
     /*error*/
-    ctx[63].path && create_if_block_143(ctx)
+    ctx[65].path && create_if_block_152(ctx)
   );
   function click_handler() {
     return (
       /*click_handler*/
       ctx[21](
         /*error*/
-        ctx[63]
+        ctx[65]
       )
     );
   }
@@ -24576,16 +24731,16 @@ function create_each_block_22(ctx) {
       ctx = new_ctx;
       if (dirty[0] & /*errors*/
       256 && t0_value !== (t0_value = /*error*/
-      ctx[63].message + ""))
+      ctx[65].message + ""))
         set_data(t0, t0_value);
       if (
         /*error*/
-        ctx[63].path
+        ctx[65].path
       ) {
         if (if_block) {
           if_block.p(ctx, dirty);
         } else {
-          if_block = create_if_block_143(ctx);
+          if_block = create_if_block_152(ctx);
           if_block.c();
           if_block.m(li, t2);
         }
@@ -24621,7 +24776,7 @@ function create_else_block_2(ctx) {
     }
   };
 }
-function create_if_block_123(ctx) {
+function create_if_block_133(ctx) {
   let formrow;
   let current;
   formrow = new FormRow_default({
@@ -24629,7 +24784,7 @@ function create_if_block_123(ctx) {
       label: "Hidden field",
       tooltip: "This field will not be shown. It is a common way to pass data to the form that is not meant to be seen.",
       id: `hidden_${/*index*/
-      ctx[57]}`,
+      ctx[58]}`,
       $$slots: { default: [create_default_slot_18] },
       $$scope: { ctx }
     }
@@ -24646,7 +24801,7 @@ function create_if_block_123(ctx) {
       const formrow_changes = {};
       if (dirty[0] & /*definition*/
       1 | dirty[2] & /*$$scope*/
-      16) {
+      64) {
         formrow_changes.$$scope = { dirty, ctx: ctx2 };
       }
       formrow.$set(formrow_changes);
@@ -24674,19 +24829,19 @@ function create_default_slot_18(ctx) {
     ctx[24](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
   let toggle_props = { tabindex: (
     /*index*/
-    ctx[57]
+    ctx[58]
   ) };
   if (
     /*field*/
-    ctx[53].input.hidden !== void 0
+    ctx[54].input.hidden !== void 0
   ) {
     toggle_props.checked = /*field*/
-    ctx[53].input.hidden;
+    ctx[54].input.hidden;
   }
   toggle = new Toggle_default({ props: toggle_props });
   binding_callbacks.push(() => bind6(toggle, "checked", toggle_checked_binding));
@@ -24705,7 +24860,7 @@ function create_default_slot_18(ctx) {
       1) {
         updating_checked = true;
         toggle_changes.checked = /*field*/
-        ctx[53].input.hidden;
+        ctx[54].input.hidden;
         add_flush_callback(() => updating_checked = false);
       }
       toggle.$set(toggle_changes);
@@ -24729,7 +24884,7 @@ function create_each_block_15(ctx) {
   let option2;
   let t_value = (
     /*type*/
-    ctx[60][1] + ""
+    ctx[62][1] + ""
   );
   let t;
   let option_value_value;
@@ -24738,7 +24893,7 @@ function create_each_block_15(ctx) {
       option2 = element("option");
       t = text(t_value);
       option2.__value = option_value_value = /*type*/
-      ctx[60][0];
+      ctx[62][0];
       set_input_value(option2, option2.__value);
     },
     m(target, anchor) {
@@ -24753,10 +24908,79 @@ function create_each_block_15(ctx) {
     }
   };
 }
+function create_if_block_123(ctx) {
+  let div;
+  let label;
+  let label_for_value;
+  let t1;
+  let input_1;
+  let input_1_id_value;
+  let mounted;
+  let dispose;
+  function input_1_input_handler() {
+    ctx[27].call(
+      input_1,
+      /*each_value*/
+      ctx[57],
+      /*index*/
+      ctx[58]
+    );
+  }
+  return {
+    c() {
+      div = element("div");
+      label = element("label");
+      label.textContent = "Placeholder";
+      t1 = space();
+      input_1 = element("input");
+      attr(label, "for", label_for_value = /*placeholder_id*/
+      ctx[61]);
+      attr(input_1, "type", "text");
+      attr(input_1, "placeholder", "Shown when the field is empty");
+      attr(input_1, "id", input_1_id_value = /*placeholder_id*/
+      ctx[61]);
+      attr(div, "class", "flex column gap1 svelte-1alubwb");
+    },
+    m(target, anchor) {
+      insert(target, div, anchor);
+      append5(div, label);
+      append5(div, t1);
+      append5(div, input_1);
+      set_input_value(
+        input_1,
+        /*field*/
+        ctx[54].input.placeholder
+      );
+      if (!mounted) {
+        dispose = listen(input_1, "input", input_1_input_handler);
+        mounted = true;
+      }
+    },
+    p(new_ctx, dirty) {
+      ctx = new_ctx;
+      if (dirty[0] & /*definition*/
+      1 && input_1.value !== /*field*/
+      ctx[54].input.placeholder) {
+        set_input_value(
+          input_1,
+          /*field*/
+          ctx[54].input.placeholder
+        );
+      }
+    },
+    d(detaching) {
+      if (detaching) {
+        detach(div);
+      }
+      mounted = false;
+      dispose();
+    }
+  };
+}
 function create_else_block_12(ctx) {
   let t_value = absurd2(
     /*field*/
-    ctx[53].input.type
+    ctx[54].input.type
   ) + "";
   let t;
   return {
@@ -24770,7 +24994,7 @@ function create_else_block_12(ctx) {
       if (dirty[0] & /*definition*/
       1 && t_value !== (t_value = absurd2(
         /*field*/
-        ctx2[53].input.type
+        ctx2[54].input.type
       ) + ""))
         set_data(t, t_value);
     },
@@ -24799,23 +25023,23 @@ function create_if_block_102(ctx) {
   let updating_allowedExtensions;
   let current;
   function inputbuilderfile_folder_binding(value) {
-    ctx[44](
-      value,
-      /*field*/
-      ctx[53]
-    );
-  }
-  function inputbuilderfile_allowedExtensions_binding(value) {
     ctx[45](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
+    );
+  }
+  function inputbuilderfile_allowedExtensions_binding(value) {
+    ctx[46](
+      value,
+      /*field*/
+      ctx[54]
     );
   }
   let inputbuilderfile_props = {
     index: (
       /*index*/
-      ctx[57]
+      ctx[58]
     ),
     notifyChange: (
       /*onChange*/
@@ -24828,17 +25052,17 @@ function create_if_block_102(ctx) {
   };
   if (
     /*field*/
-    ctx[53].input.folder !== void 0
+    ctx[54].input.folder !== void 0
   ) {
     inputbuilderfile_props.folder = /*field*/
-    ctx[53].input.folder;
+    ctx[54].input.folder;
   }
   if (
     /*field*/
-    ctx[53].input.allowedExtensions !== void 0
+    ctx[54].input.allowedExtensions !== void 0
   ) {
     inputbuilderfile_props.allowedExtensions = /*field*/
-    ctx[53].input.allowedExtensions;
+    ctx[54].input.allowedExtensions;
   }
   inputbuilderfile = new InputBuilderFile_default({ props: inputbuilderfile_props });
   binding_callbacks.push(() => bind6(inputbuilderfile, "folder", inputbuilderfile_folder_binding));
@@ -24866,14 +25090,14 @@ function create_if_block_102(ctx) {
       1) {
         updating_folder = true;
         inputbuilderfile_changes.folder = /*field*/
-        ctx[53].input.folder;
+        ctx[54].input.folder;
         add_flush_callback(() => updating_folder = false);
       }
       if (!updating_allowedExtensions && dirty[0] & /*definition*/
       1) {
         updating_allowedExtensions = true;
         inputbuilderfile_changes.allowedExtensions = /*field*/
-        ctx[53].input.allowedExtensions;
+        ctx[54].input.allowedExtensions;
         add_flush_callback(() => updating_allowedExtensions = false);
       }
       inputbuilderfile.$set(inputbuilderfile_changes);
@@ -24899,23 +25123,23 @@ function create_if_block_92(ctx) {
   let updating_filenameTemplate;
   let current;
   function inputbuilderimage_saveLocation_binding(value) {
-    ctx[42](
-      value,
-      /*field*/
-      ctx[53]
-    );
-  }
-  function inputbuilderimage_filenameTemplate_binding(value) {
     ctx[43](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
+    );
+  }
+  function inputbuilderimage_filenameTemplate_binding(value) {
+    ctx[44](
+      value,
+      /*field*/
+      ctx[54]
     );
   }
   let inputbuilderimage_props = {
     index: (
       /*index*/
-      ctx[57]
+      ctx[58]
     ),
     notifyChange: (
       /*onChange*/
@@ -24928,17 +25152,17 @@ function create_if_block_92(ctx) {
   };
   if (
     /*field*/
-    ctx[53].input.saveLocation !== void 0
+    ctx[54].input.saveLocation !== void 0
   ) {
     inputbuilderimage_props.saveLocation = /*field*/
-    ctx[53].input.saveLocation;
+    ctx[54].input.saveLocation;
   }
   if (
     /*field*/
-    ctx[53].input.filenameTemplate !== void 0
+    ctx[54].input.filenameTemplate !== void 0
   ) {
     inputbuilderimage_props.filenameTemplate = /*field*/
-    ctx[53].input.filenameTemplate;
+    ctx[54].input.filenameTemplate;
   }
   inputbuilderimage = new InputBuilderImage_default({ props: inputbuilderimage_props });
   binding_callbacks.push(() => bind6(inputbuilderimage, "saveLocation", inputbuilderimage_saveLocation_binding));
@@ -24966,14 +25190,14 @@ function create_if_block_92(ctx) {
       1) {
         updating_saveLocation = true;
         inputbuilderimage_changes.saveLocation = /*field*/
-        ctx[53].input.saveLocation;
+        ctx[54].input.saveLocation;
         add_flush_callback(() => updating_saveLocation = false);
       }
       if (!updating_filenameTemplate && dirty[0] & /*definition*/
       1) {
         updating_filenameTemplate = true;
         inputbuilderimage_changes.filenameTemplate = /*field*/
-        ctx[53].input.filenameTemplate;
+        ctx[54].input.filenameTemplate;
         add_flush_callback(() => updating_filenameTemplate = false);
       }
       inputbuilderimage.$set(inputbuilderimage_changes);
@@ -24998,28 +25222,28 @@ function create_if_block_82(ctx) {
   let updating_body;
   let current;
   function inputbuilderdocumentblock_body_binding(value) {
-    ctx[41](
+    ctx[42](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
   let inputbuilderdocumentblock_props = {
     index: (
       /*index*/
-      ctx[57]
+      ctx[58]
     ),
     flavour: (
       /*field*/
-      ctx[53].input.type === "document_block" ? "html" : "markdown"
+      ctx[54].input.type === "document_block" ? "html" : "markdown"
     )
   };
   if (
     /*field*/
-    ctx[53].input.body !== void 0
+    ctx[54].input.body !== void 0
   ) {
     inputbuilderdocumentblock_props.body = /*field*/
-    ctx[53].input.body;
+    ctx[54].input.body;
   }
   inputbuilderdocumentblock = new InputBuilderDocumentBlock_default({ props: inputbuilderdocumentblock_props });
   binding_callbacks.push(() => bind6(inputbuilderdocumentblock, "body", inputbuilderdocumentblock_body_binding));
@@ -25037,12 +25261,12 @@ function create_if_block_82(ctx) {
       if (dirty[0] & /*definition*/
       1)
         inputbuilderdocumentblock_changes.flavour = /*field*/
-        ctx[53].input.type === "document_block" ? "html" : "markdown";
+        ctx[54].input.type === "document_block" ? "html" : "markdown";
       if (!updating_body && dirty[0] & /*definition*/
       1) {
         updating_body = true;
         inputbuilderdocumentblock_changes.body = /*field*/
-        ctx[53].input.body;
+        ctx[54].input.body;
         add_flush_callback(() => updating_body = false);
       }
       inputbuilderdocumentblock.$set(inputbuilderdocumentblock_changes);
@@ -25067,16 +25291,16 @@ function create_if_block_73(ctx) {
   let updating_value;
   let current;
   function inputbuilderdataview_value_binding(value) {
-    ctx[40](
+    ctx[41](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
   let inputbuilderdataview_props = {
     index: (
       /*index*/
-      ctx[57]
+      ctx[58]
     ),
     app: (
       /*app*/
@@ -25085,10 +25309,10 @@ function create_if_block_73(ctx) {
   };
   if (
     /*field*/
-    ctx[53].input.query !== void 0
+    ctx[54].input.query !== void 0
   ) {
     inputbuilderdataview_props.value = /*field*/
-    ctx[53].input.query;
+    ctx[54].input.query;
   }
   inputbuilderdataview = new inputBuilderDataview_default({ props: inputbuilderdataview_props });
   binding_callbacks.push(() => bind6(inputbuilderdataview, "value", inputbuilderdataview_value_binding));
@@ -25111,7 +25335,7 @@ function create_if_block_73(ctx) {
       1) {
         updating_value = true;
         inputbuilderdataview_changes.value = /*field*/
-        ctx[53].input.query;
+        ctx[54].input.query;
         add_flush_callback(() => updating_value = false);
       }
       inputbuilderdataview.$set(inputbuilderdataview_changes);
@@ -25136,16 +25360,16 @@ function create_if_block_64(ctx) {
   let updating_folder;
   let current;
   function inputfolder_folder_binding_1(value) {
-    ctx[39](
+    ctx[40](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
   let inputfolder_props = {
     index: (
       /*index*/
-      ctx[57]
+      ctx[58]
     ),
     app: (
       /*app*/
@@ -25158,10 +25382,10 @@ function create_if_block_64(ctx) {
   };
   if (
     /*field*/
-    ctx[53].input.parentFolder !== void 0
+    ctx[54].input.parentFolder !== void 0
   ) {
     inputfolder_props.folder = /*field*/
-    ctx[53].input.parentFolder;
+    ctx[54].input.parentFolder;
   }
   inputfolder = new InputBuilderFolder_default({ props: inputfolder_props });
   binding_callbacks.push(() => bind6(inputfolder, "folder", inputfolder_folder_binding_1));
@@ -25188,7 +25412,7 @@ function create_if_block_64(ctx) {
       1) {
         updating_folder = true;
         inputfolder_changes.folder = /*field*/
-        ctx[53].input.parentFolder;
+        ctx[54].input.parentFolder;
         add_flush_callback(() => updating_folder = false);
       }
       inputfolder.$set(inputfolder_changes);
@@ -25213,16 +25437,16 @@ function create_if_block_55(ctx) {
   let updating_folder;
   let current;
   function inputfolder_folder_binding(value) {
-    ctx[38](
+    ctx[39](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
   let inputfolder_props = {
     index: (
       /*index*/
-      ctx[57]
+      ctx[58]
     ),
     app: (
       /*app*/
@@ -25235,10 +25459,10 @@ function create_if_block_55(ctx) {
   };
   if (
     /*field*/
-    ctx[53].input.folder !== void 0
+    ctx[54].input.folder !== void 0
   ) {
     inputfolder_props.folder = /*field*/
-    ctx[53].input.folder;
+    ctx[54].input.folder;
   }
   inputfolder = new InputBuilderFolder_default({ props: inputfolder_props });
   binding_callbacks.push(() => bind6(inputfolder, "folder", inputfolder_folder_binding));
@@ -25265,7 +25489,7 @@ function create_if_block_55(ctx) {
       1) {
         updating_folder = true;
         inputfolder_changes.folder = /*field*/
-        ctx[53].input.folder;
+        ctx[54].input.folder;
         add_flush_callback(() => updating_folder = false);
       }
       inputfolder.$set(inputfolder_changes);
@@ -25302,21 +25526,21 @@ function create_if_block_45(ctx) {
   let mounted;
   let dispose;
   function input0_input_handler_2() {
-    ctx[36].call(
+    ctx[37].call(
       input0,
       /*each_value*/
-      ctx[56],
+      ctx[57],
       /*index*/
-      ctx[57]
+      ctx[58]
     );
   }
   function input1_input_handler_2() {
-    ctx[37].call(
+    ctx[38].call(
       input1,
       /*each_value*/
-      ctx[56],
+      ctx[57],
       /*index*/
-      ctx[57]
+      ctx[58]
     );
   }
   return {
@@ -25333,18 +25557,18 @@ function create_if_block_45(ctx) {
       t4 = space();
       input1 = element("input");
       attr(label0, "for", label0_for_value = /*min_id*/
-      ctx[58]);
+      ctx[59]);
       attr(input0, "type", "number");
       attr(input0, "placeholder", "0");
       attr(input0, "id", input0_id_value = /*min_id*/
-      ctx[58]);
+      ctx[59]);
       attr(div0, "class", "flex column gap1 svelte-1alubwb");
       attr(label1, "for", label1_for_value = /*max_id*/
-      ctx[59]);
+      ctx[60]);
       attr(input1, "type", "number");
       attr(input1, "placeholder", "10");
       attr(input1, "id", input1_id_value = /*max_id*/
-      ctx[59]);
+      ctx[60]);
       attr(div1, "class", "flex column gap1 svelte-1alubwb");
     },
     m(target, anchor) {
@@ -25355,7 +25579,7 @@ function create_if_block_45(ctx) {
       set_input_value(
         input0,
         /*field*/
-        ctx[53].input.min
+        ctx[54].input.min
       );
       insert(target, t2, anchor);
       insert(target, div1, anchor);
@@ -25365,7 +25589,7 @@ function create_if_block_45(ctx) {
       set_input_value(
         input1,
         /*field*/
-        ctx[53].input.max
+        ctx[54].input.max
       );
       if (!mounted) {
         dispose = [
@@ -25379,20 +25603,20 @@ function create_if_block_45(ctx) {
       ctx = new_ctx;
       if (dirty[0] & /*definition*/
       1 && to_number(input0.value) !== /*field*/
-      ctx[53].input.min) {
+      ctx[54].input.min) {
         set_input_value(
           input0,
           /*field*/
-          ctx[53].input.min
+          ctx[54].input.min
         );
       }
       if (dirty[0] & /*definition*/
       1 && to_number(input1.value) !== /*field*/
-      ctx[53].input.max) {
+      ctx[54].input.max) {
         set_input_value(
           input1,
           /*field*/
-          ctx[53].input.max
+          ctx[54].input.max
         );
       }
     },
@@ -25419,51 +25643,51 @@ function create_if_block_35(ctx) {
   let updating_allowUnknownValues;
   let current;
   function inputbuilderselect_source_binding_1(value) {
-    ctx[30](
-      value,
-      /*field*/
-      ctx[53]
-    );
-  }
-  function inputbuilderselect_options_binding_1(value) {
     ctx[31](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
-  function inputbuilderselect_folder_binding_1(value) {
+  function inputbuilderselect_options_binding_1(value) {
     ctx[32](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
-  function inputbuilderselect_folders_binding(value) {
+  function inputbuilderselect_folder_binding_1(value) {
     ctx[33](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
-  function inputbuilderselect_query_binding(value) {
+  function inputbuilderselect_folders_binding(value) {
     ctx[34](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
-  function inputbuilderselect_allowUnknownValues_binding(value) {
+  function inputbuilderselect_query_binding(value) {
     ctx[35](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
+    );
+  }
+  function inputbuilderselect_allowUnknownValues_binding(value) {
+    ctx[36](
+      value,
+      /*field*/
+      ctx[54]
     );
   }
   let inputbuilderselect_props = {
     index: (
       /*index*/
-      ctx[57]
+      ctx[58]
     ),
     notifyChange: (
       /*onChange*/
@@ -25477,45 +25701,45 @@ function create_if_block_35(ctx) {
   };
   if (
     /*field*/
-    ctx[53].input.source !== void 0
+    ctx[54].input.source !== void 0
   ) {
     inputbuilderselect_props.source = /*field*/
-    ctx[53].input.source;
+    ctx[54].input.source;
   }
   if (
     /*field*/
-    ctx[53].input.multi_select_options !== void 0
+    ctx[54].input.multi_select_options !== void 0
   ) {
     inputbuilderselect_props.options = /*field*/
-    ctx[53].input.multi_select_options;
+    ctx[54].input.multi_select_options;
   }
   if (
     /*field*/
-    ctx[53].input.folder !== void 0
+    ctx[54].input.folder !== void 0
   ) {
     inputbuilderselect_props.folder = /*field*/
-    ctx[53].input.folder;
+    ctx[54].input.folder;
   }
   if (
     /*field*/
-    ctx[53].input.folders !== void 0
+    ctx[54].input.folders !== void 0
   ) {
     inputbuilderselect_props.folders = /*field*/
-    ctx[53].input.folders;
+    ctx[54].input.folders;
   }
   if (
     /*field*/
-    ctx[53].input.query !== void 0
+    ctx[54].input.query !== void 0
   ) {
     inputbuilderselect_props.query = /*field*/
-    ctx[53].input.query;
+    ctx[54].input.query;
   }
   if (
     /*field*/
-    ctx[53].input.allowUnknownValues !== void 0
+    ctx[54].input.allowUnknownValues !== void 0
   ) {
     inputbuilderselect_props.allowUnknownValues = /*field*/
-    ctx[53].input.allowUnknownValues;
+    ctx[54].input.allowUnknownValues;
   }
   inputbuilderselect = new InputBuilderSelect_default({ props: inputbuilderselect_props });
   binding_callbacks.push(() => bind6(inputbuilderselect, "source", inputbuilderselect_source_binding_1));
@@ -25547,42 +25771,42 @@ function create_if_block_35(ctx) {
       1) {
         updating_source = true;
         inputbuilderselect_changes.source = /*field*/
-        ctx[53].input.source;
+        ctx[54].input.source;
         add_flush_callback(() => updating_source = false);
       }
       if (!updating_options && dirty[0] & /*definition*/
       1) {
         updating_options = true;
         inputbuilderselect_changes.options = /*field*/
-        ctx[53].input.multi_select_options;
+        ctx[54].input.multi_select_options;
         add_flush_callback(() => updating_options = false);
       }
       if (!updating_folder && dirty[0] & /*definition*/
       1) {
         updating_folder = true;
         inputbuilderselect_changes.folder = /*field*/
-        ctx[53].input.folder;
+        ctx[54].input.folder;
         add_flush_callback(() => updating_folder = false);
       }
       if (!updating_folders && dirty[0] & /*definition*/
       1) {
         updating_folders = true;
         inputbuilderselect_changes.folders = /*field*/
-        ctx[53].input.folders;
+        ctx[54].input.folders;
         add_flush_callback(() => updating_folders = false);
       }
       if (!updating_query && dirty[0] & /*definition*/
       1) {
         updating_query = true;
         inputbuilderselect_changes.query = /*field*/
-        ctx[53].input.query;
+        ctx[54].input.query;
         add_flush_callback(() => updating_query = false);
       }
       if (!updating_allowUnknownValues && dirty[0] & /*definition*/
       1) {
         updating_allowUnknownValues = true;
         inputbuilderselect_changes.allowUnknownValues = /*field*/
-        ctx[53].input.allowUnknownValues;
+        ctx[54].input.allowUnknownValues;
         add_flush_callback(() => updating_allowUnknownValues = false);
       }
       inputbuilderselect.$set(inputbuilderselect_changes);
@@ -25609,30 +25833,30 @@ function create_if_block_25(ctx) {
   let updating_folder;
   let current;
   function inputbuilderselect_source_binding(value) {
-    ctx[27](
-      value,
-      /*field*/
-      ctx[53]
-    );
-  }
-  function inputbuilderselect_options_binding(value) {
     ctx[28](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
-  function inputbuilderselect_folder_binding(value) {
+  function inputbuilderselect_options_binding(value) {
     ctx[29](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
+    );
+  }
+  function inputbuilderselect_folder_binding(value) {
+    ctx[30](
+      value,
+      /*field*/
+      ctx[54]
     );
   }
   let inputbuilderselect_props = {
     index: (
       /*index*/
-      ctx[57]
+      ctx[58]
     ),
     notifyChange: (
       /*onChange*/
@@ -25647,24 +25871,24 @@ function create_if_block_25(ctx) {
   };
   if (
     /*field*/
-    ctx[53].input.source !== void 0
+    ctx[54].input.source !== void 0
   ) {
     inputbuilderselect_props.source = /*field*/
-    ctx[53].input.source;
+    ctx[54].input.source;
   }
   if (
     /*field*/
-    ctx[53].input.options !== void 0
+    ctx[54].input.options !== void 0
   ) {
     inputbuilderselect_props.options = /*field*/
-    ctx[53].input.options;
+    ctx[54].input.options;
   }
   if (
     /*field*/
-    ctx[53].input.folder !== void 0
+    ctx[54].input.folder !== void 0
   ) {
     inputbuilderselect_props.folder = /*field*/
-    ctx[53].input.folder;
+    ctx[54].input.folder;
   }
   inputbuilderselect = new InputBuilderSelect_default({ props: inputbuilderselect_props });
   binding_callbacks.push(() => bind6(inputbuilderselect, "source", inputbuilderselect_source_binding));
@@ -25693,21 +25917,21 @@ function create_if_block_25(ctx) {
       1) {
         updating_source = true;
         inputbuilderselect_changes.source = /*field*/
-        ctx[53].input.source;
+        ctx[54].input.source;
         add_flush_callback(() => updating_source = false);
       }
       if (!updating_options && dirty[0] & /*definition*/
       1) {
         updating_options = true;
         inputbuilderselect_changes.options = /*field*/
-        ctx[53].input.options;
+        ctx[54].input.options;
         add_flush_callback(() => updating_options = false);
       }
       if (!updating_folder && dirty[0] & /*definition*/
       1) {
         updating_folder = true;
         inputbuilderselect_changes.folder = /*field*/
-        ctx[53].input.folder;
+        ctx[54].input.folder;
         add_flush_callback(() => updating_folder = false);
       }
       inputbuilderselect.$set(inputbuilderselect_changes);
@@ -25734,7 +25958,7 @@ function create_if_block_111(ctx) {
     props: {
       label: "Required",
       id: `required_${/*index*/
-      ctx[57]}`,
+      ctx[58]}`,
       $$slots: { default: [create_default_slot14] },
       $$scope: { ctx }
     }
@@ -25751,7 +25975,7 @@ function create_if_block_111(ctx) {
       const formrow_changes = {};
       if (dirty[0] & /*definition*/
       1 | dirty[2] & /*$$scope*/
-      16) {
+      64) {
         formrow_changes.$$scope = { dirty, ctx: ctx2 };
       }
       formrow.$set(formrow_changes);
@@ -25776,22 +26000,22 @@ function create_default_slot14(ctx) {
   let updating_checked;
   let current;
   function toggle_checked_binding_1(value) {
-    ctx[46](
+    ctx[47](
       value,
       /*field*/
-      ctx[53]
+      ctx[54]
     );
   }
   let toggle_props = { tabindex: (
     /*index*/
-    ctx[57]
+    ctx[58]
   ) };
   if (
     /*field*/
-    ctx[53].isRequired !== void 0
+    ctx[54].isRequired !== void 0
   ) {
     toggle_props.checked = /*field*/
-    ctx[53].isRequired;
+    ctx[54].isRequired;
   }
   toggle = new Toggle_default({ props: toggle_props });
   binding_callbacks.push(() => bind6(toggle, "checked", toggle_checked_binding_1));
@@ -25810,7 +26034,7 @@ function create_default_slot14(ctx) {
       1) {
         updating_checked = true;
         toggle_changes.checked = /*field*/
-        ctx[53].isRequired;
+        ctx[54].isRequired;
         add_flush_callback(() => updating_checked = false);
       }
       toggle.$set(toggle_changes);
@@ -25847,9 +26071,9 @@ function create_each_block9(ctx) {
   let input1_placeholder_value;
   let input1_id_value;
   let t5;
-  let show_if_1 = isBasicInputType(
+  let show_if_2 = isBasicInputType(
     /*field*/
-    ctx[53].input
+    ctx[54].input
   );
   let t6;
   let div2;
@@ -25872,10 +26096,15 @@ function create_each_block9(ctx) {
   let select;
   let select_id_value;
   let t15;
+  let show_if_1 = inputUsesPlaceholder(
+    /*field*/
+    ctx[54].input.type
+  );
+  let t16;
   let div7;
   let current_block_type_index;
-  let if_block1;
-  let t16;
+  let if_block2;
+  let t17;
   let show_if = [
     "text",
     "email",
@@ -25888,26 +26117,26 @@ function create_each_block9(ctx) {
     "file"
   ].includes(
     /*field*/
-    ctx[53].input.type
+    ctx[54].input.type
   );
-  let t17;
-  let fieldmeta;
   let t18;
+  let fieldmeta;
+  let t19;
   let div8;
   let button0;
   let button0_disabled_value;
   let setIcon_action;
-  let t19;
+  let t20;
   let button1;
   let button1_disabled_value;
   let setIcon_action_1;
-  let t20;
+  let t21;
   let button2;
-  let t22;
+  let t23;
   let button3;
   let button3_id_value;
   let setIcon_action_2;
-  let t23;
+  let t24;
   let hr;
   let current;
   let mounted;
@@ -25916,28 +26145,28 @@ function create_each_block9(ctx) {
     ctx[22].call(
       input0,
       /*each_value*/
-      ctx[56],
+      ctx[57],
       /*index*/
-      ctx[57]
+      ctx[58]
     );
   }
   function input1_input_handler_1() {
     ctx[23].call(
       input1,
       /*each_value*/
-      ctx[56],
+      ctx[57],
       /*index*/
-      ctx[57]
+      ctx[58]
     );
   }
-  let if_block0 = show_if_1 && create_if_block_123(ctx);
+  let if_block0 = show_if_2 && create_if_block_133(ctx);
   function input2_input_handler_1() {
     ctx[25].call(
       input2,
       /*each_value*/
-      ctx[56],
+      ctx[57],
       /*index*/
-      ctx[57]
+      ctx[58]
     );
   }
   let each_value_1 = ensure_array_like(Object.entries(InputTypeReadable));
@@ -25949,11 +26178,12 @@ function create_each_block9(ctx) {
     ctx[26].call(
       select,
       /*each_value*/
-      ctx[56],
+      ctx[57],
       /*index*/
-      ctx[57]
+      ctx[58]
     );
   }
+  let if_block1 = show_if_1 && create_if_block_123(get_if_ctx_12(ctx));
   const if_block_creators = [
     create_if_block_25,
     create_if_block_35,
@@ -25971,62 +26201,62 @@ function create_each_block9(ctx) {
   function select_block_type_1(ctx2, dirty) {
     if (
       /*field*/
-      ctx2[53].input.type === "select"
+      ctx2[54].input.type === "select"
     )
       return 0;
     if (
       /*field*/
-      ctx2[53].input.type === "multiselect"
+      ctx2[54].input.type === "multiselect"
     )
       return 1;
     if (
       /*field*/
-      ctx2[53].input.type === "slider"
+      ctx2[54].input.type === "slider"
     )
       return 2;
     if (
       /*field*/
-      ctx2[53].input.type === "note"
+      ctx2[54].input.type === "note"
     )
       return 3;
     if (
       /*field*/
-      ctx2[53].input.type === "folder"
+      ctx2[54].input.type === "folder"
     )
       return 4;
     if (
       /*field*/
-      ctx2[53].input.type === "dataview"
+      ctx2[54].input.type === "dataview"
     )
       return 5;
     if (
       /*field*/
-      ctx2[53].input.type === "document_block" || /*field*/
-      ctx2[53].input.type === "markdown_block"
+      ctx2[54].input.type === "document_block" || /*field*/
+      ctx2[54].input.type === "markdown_block"
     )
       return 6;
     if (
       /*field*/
-      ctx2[53].input.type === "image"
+      ctx2[54].input.type === "image"
     )
       return 7;
     if (
       /*field*/
-      ctx2[53].input.type === "file"
+      ctx2[54].input.type === "file"
     )
       return 8;
     if (
       /*field*/
-      ctx2[53].input.type === "number" || /*field*/
-      ctx2[53].input.type === "email" || /*field*/
-      ctx2[53].input.type === "tel" || /*field*/
-      ctx2[53].input.type === "date" || /*field*/
-      ctx2[53].input.type === "time" || /*field*/
-      ctx2[53].input.type === "datetime" || /*field*/
-      ctx2[53].input.type === "toggle" || /*field*/
-      ctx2[53].input.type === "textarea" || /*field*/
-      ctx2[53].input.type === "text" || /*field*/
-      ctx2[53].input.type === "tag"
+      ctx2[54].input.type === "number" || /*field*/
+      ctx2[54].input.type === "email" || /*field*/
+      ctx2[54].input.type === "tel" || /*field*/
+      ctx2[54].input.type === "date" || /*field*/
+      ctx2[54].input.type === "time" || /*field*/
+      ctx2[54].input.type === "datetime" || /*field*/
+      ctx2[54].input.type === "toggle" || /*field*/
+      ctx2[54].input.type === "textarea" || /*field*/
+      ctx2[54].input.type === "text" || /*field*/
+      ctx2[54].input.type === "tag"
     )
       return 9;
     return 10;
@@ -26037,13 +26267,13 @@ function create_each_block9(ctx) {
     return ctx2;
   }
   current_block_type_index = select_block_type_1(ctx, [-1, -1, -1]);
-  if_block1 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](select_block_ctx(ctx, current_block_type_index));
-  let if_block2 = show_if && create_if_block_111(ctx);
+  if_block2 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](select_block_ctx(ctx, current_block_type_index));
+  let if_block3 = show_if && create_if_block_111(ctx);
   fieldmeta = new FieldMeta_default({
     props: {
       field: (
         /*field*/
-        ctx[53]
+        ctx[54]
       ),
       availableFieldsForCondition: (
         /*availableFieldsForCondition*/
@@ -26051,43 +26281,43 @@ function create_each_block9(ctx) {
       ),
       index: (
         /*index*/
-        ctx[57]
+        ctx[58]
       )
     }
   });
   function click_handler_1() {
     return (
       /*click_handler_1*/
-      ctx[47](
+      ctx[48](
         /*index*/
-        ctx[57]
+        ctx[58]
       )
     );
   }
   function click_handler_2() {
     return (
       /*click_handler_2*/
-      ctx[48](
+      ctx[49](
         /*index*/
-        ctx[57]
+        ctx[58]
       )
     );
   }
   function click_handler_3() {
     return (
       /*click_handler_3*/
-      ctx[49](
+      ctx[50](
         /*index*/
-        ctx[57]
+        ctx[58]
       )
     );
   }
   function click_handler_4() {
     return (
       /*click_handler_4*/
-      ctx[50](
+      ctx[51](
         /*index*/
-        ctx[57]
+        ctx[58]
       )
     );
   }
@@ -26112,7 +26342,7 @@ function create_each_block9(ctx) {
       div2 = element("div");
       label2 = element("label");
       label2.textContent = `delete ${/*index*/
-      ctx[57]}`;
+      ctx[58]}`;
       t9 = space();
       div6 = element("div");
       div4 = element("div");
@@ -26130,61 +26360,64 @@ function create_each_block9(ctx) {
         each_blocks[i].c();
       }
       t15 = space();
-      div7 = element("div");
-      if_block1.c();
+      if (if_block1)
+        if_block1.c();
       t16 = space();
-      if (if_block2)
-        if_block2.c();
+      div7 = element("div");
+      if_block2.c();
       t17 = space();
-      create_component(fieldmeta.$$.fragment);
+      if (if_block3)
+        if_block3.c();
       t18 = space();
+      create_component(fieldmeta.$$.fragment);
+      t19 = space();
       div8 = element("div");
       button0 = element("button");
-      t19 = space();
-      button1 = element("button");
       t20 = space();
+      button1 = element("button");
+      t21 = space();
       button2 = element("button");
       button2.textContent = "Duplicate";
-      t22 = space();
-      button3 = element("button");
       t23 = space();
+      button3 = element("button");
+      t24 = space();
       hr = element("hr");
       attr(label0, "for", label0_for_value = `name_${/*index*/
-      ctx[57]}`);
+      ctx[58]}`);
       attr(input0, "type", "text");
       attr(input0, "placeholder", "Name");
       attr(input0, "id", input0_id_value = `name_${/*index*/
-      ctx[57]}`);
+      ctx[58]}`);
       attr(div0, "class", "flex column gap1 svelte-1alubwb");
       attr(label1, "for", label1_for_value = `label_${/*index*/
-      ctx[57]}`);
+      ctx[58]}`);
       attr(input1, "type", "text");
       attr(input1, "placeholder", input1_placeholder_value = /*field*/
-      ctx[53].name);
+      ctx[54].name);
       attr(input1, "id", input1_id_value = `label_${/*index*/
-      ctx[57]}`);
+      ctx[58]}`);
       attr(div1, "class", "flex column gap1 svelte-1alubwb");
       attr(label2, "for", label2_for_value = /*delete_id*/
-      ctx[55]);
+      ctx[56]);
       set_style(label2, "visibility", "hidden");
       set_style(label2, "overflow", "hidden");
       set_style(label2, "white-space", "nowrap");
       attr(div2, "class", "flex column gap1 svelte-1alubwb");
       attr(div3, "class", "flex column md-row gap2 svelte-1alubwb");
       attr(label3, "for", label3_for_value = /*desc_id*/
-      ctx[54]);
+      ctx[55]);
       attr(input2, "type", "text");
       attr(input2, "placeholder", "Description");
       attr(input2, "id", input2_id_value = /*desc_id*/
-      ctx[54]);
+      ctx[55]);
       attr(div4, "class", "flex column gap1 svelte-1alubwb");
       attr(label4, "for", label4_for_value = `type_${/*index*/
-      ctx[57]}`);
+      ctx[58]}`);
       attr(select, "id", select_id_value = `type_${/*index*/
-      ctx[57]}`);
+      ctx[58]}`);
       if (
         /*field*/
-        ctx[53].input.type === void 0
+        ctx[54].input.type === void 0
       )
         add_render_callback(select_change_handler);
       attr(div5, "class", "flex column gap1 svelte-1alubwb");
@@ -26192,18 +26425,18 @@ function create_each_block9(ctx) {
       attr(div7, "class", "flex gap1 svelte-1alubwb");
       attr(button0, "type", "button");
       button0.disabled = button0_disabled_value = /*index*/
-      ctx[57] === 0;
+      ctx[58] === 0;
       attr(button0, "class", "svelte-1alubwb");
       attr(button1, "type", "button");
       button1.disabled = button1_disabled_value = /*index*/
-      ctx[57] === /*definition*/
+      ctx[58] === /*definition*/
       ctx[0].fields.length - 1;
       attr(button1, "class", "svelte-1alubwb");
       attr(button2, "type", "button");
       attr(button2, "class", "svelte-1alubwb");
       attr(button3, "type", "button");
       attr(button3, "id", button3_id_value = /*delete_id*/
-      ctx[55]);
+      ctx[56]);
       attr(button3, "class", "svelte-1alubwb");
       attr(div8, "class", "flex gap1 svelte-1alubwb");
     },
@@ -26216,7 +26449,7 @@ function create_each_block9(ctx) {
       set_input_value(
         input0,
         /*field*/
-        ctx[53].name
+        ctx[54].name
       );
       append5(div3, t2);
       append5(div3, div1);
@@ -26226,7 +26459,7 @@ function create_each_block9(ctx) {
       set_input_value(
         input1,
         /*field*/
-        ctx[53].label
+        ctx[54].label
       );
       append5(div3, t5);
       if (if_block0)
@@ -26243,7 +26476,7 @@ function create_each_block9(ctx) {
       set_input_value(
         input2,
         /*field*/
-        ctx[53].description
+        ctx[54].description
       );
       append5(div6, t12);
       append5(div6, div5);
@@ -26258,27 +26491,30 @@ function create_each_block9(ctx) {
       select_option(
         select,
         /*field*/
-        ctx[53].input.type,
+        ctx[54].input.type,
         true
       );
-      insert(target, t15, anchor);
+      append5(div6, t15);
+      if (if_block1)
+        if_block1.m(div6, null);
+      insert(target, t16, anchor);
       insert(target, div7, anchor);
       if_blocks[current_block_type_index].m(div7, null);
-      insert(target, t16, anchor);
-      if (if_block2)
-        if_block2.m(target, anchor);
       insert(target, t17, anchor);
-      mount_component(fieldmeta, target, anchor);
+      if (if_block3)
+        if_block3.m(target, anchor);
       insert(target, t18, anchor);
+      mount_component(fieldmeta, target, anchor);
+      insert(target, t19, anchor);
       insert(target, div8, anchor);
       append5(div8, button0);
-      append5(div8, t19);
-      append5(div8, button1);
       append5(div8, t20);
+      append5(div8, button1);
+      append5(div8, t21);
       append5(div8, button2);
-      append5(div8, t22);
+      append5(div8, t23);
       append5(div8, button3);
-      insert(target, t23, anchor);
+      insert(target, t24, anchor);
       insert(target, hr, anchor);
       current = true;
       if (!mounted) {
@@ -26289,7 +26525,7 @@ function create_each_block9(ctx) {
             null,
             div3,
             /*index*/
-            ctx[57] === /*activeFieldIndex*/
+            ctx[58] === /*activeFieldIndex*/
             ctx[6]
           )),
           listen(input2, "input", input2_input_handler_1),
@@ -26309,34 +26545,34 @@ function create_each_block9(ctx) {
       ctx = new_ctx;
       if (dirty[0] & /*definition*/
       1 && input0.value !== /*field*/
-      ctx[53].name) {
+      ctx[54].name) {
         set_input_value(
           input0,
           /*field*/
-          ctx[53].name
+          ctx[54].name
         );
       }
       if (!current || dirty[0] & /*definition*/
       1 && input1_placeholder_value !== (input1_placeholder_value = /*field*/
-      ctx[53].name)) {
+      ctx[54].name)) {
         attr(input1, "placeholder", input1_placeholder_value);
       }
       if (dirty[0] & /*definition*/
       1 && input1.value !== /*field*/
-      ctx[53].label) {
+      ctx[54].label) {
         set_input_value(
           input1,
           /*field*/
-          ctx[53].label
+          ctx[54].label
         );
       }
       if (dirty[0] & /*definition*/
       1)
-        show_if_1 = isBasicInputType(
+        show_if_2 = isBasicInputType(
           /*field*/
-          ctx[53].input
+          ctx[54].input
         );
-      if (show_if_1) {
+      if (show_if_2) {
         if (if_block0) {
           if_block0.p(ctx, dirty);
           if (dirty[0] & /*definition*/
@@ -26344,7 +26580,7 @@ function create_each_block9(ctx) {
             transition_in(if_block0, 1);
           }
         } else {
-          if_block0 = create_if_block_123(ctx);
+          if_block0 = create_if_block_133(ctx);
           if_block0.c();
           transition_in(if_block0, 1);
           if_block0.m(div3, t6);
@@ -26361,16 +26597,16 @@ function create_each_block9(ctx) {
         scrollWhenActive_action.update.call(
           null,
           /*index*/
-          ctx[57] === /*activeFieldIndex*/
+          ctx[58] === /*activeFieldIndex*/
           ctx[6]
         );
       if (dirty[0] & /*definition*/
       1 && input2.value !== /*field*/
-      ctx[53].description) {
+      ctx[54].description) {
         set_input_value(
           input2,
           /*field*/
-          ctx[53].description
+          ctx[54].description
         );
       }
       if (dirty & /*Object*/
@@ -26397,8 +26633,26 @@ function create_each_block9(ctx) {
         select_option(
           select,
           /*field*/
-          ctx[53].input.type
+          ctx[54].input.type
         );
+      }
+      if (dirty[0] & /*definition*/
+      1)
+        show_if_1 = inputUsesPlaceholder(
+          /*field*/
+          ctx[54].input.type
+        );
+      if (show_if_1) {
+        if (if_block1) {
+          if_block1.p(get_if_ctx_12(ctx), dirty);
+        } else {
+          if_block1 = create_if_block_123(get_if_ctx_12(ctx));
+          if_block1.c();
+          if_block1.m(div6, null);
+        }
+      } else if (if_block1) {
+        if_block1.d(1);
+        if_block1 = null;
       }
       let previous_block_index = current_block_type_index;
       current_block_type_index = select_block_type_1(ctx, dirty);
@@ -26410,15 +26664,15 @@ function create_each_block9(ctx) {
           if_blocks[previous_block_index] = null;
         });
         check_outros();
-        if_block1 = if_blocks[current_block_type_index];
-        if (!if_block1) {
-          if_block1 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](select_block_ctx(ctx, current_block_type_index));
-          if_block1.c();
+        if_block2 = if_blocks[current_block_type_index];
+        if (!if_block2) {
+          if_block2 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](select_block_ctx(ctx, current_block_type_index));
+          if_block2.c();
         } else {
-          if_block1.p(select_block_ctx(ctx, current_block_type_index), dirty);
+          if_block2.p(select_block_ctx(ctx, current_block_type_index), dirty);
         }
-        transition_in(if_block1, 1);
-        if_block1.m(div7, null);
+        transition_in(if_block2, 1);
+        if_block2.m(div7, null);
       }
       if (dirty[0] & /*definition*/
       1)
@@ -26434,25 +26688,25 @@ function create_each_block9(ctx) {
           "file"
         ].includes(
           /*field*/
-          ctx[53].input.type
+          ctx[54].input.type
         );
       if (show_if) {
-        if (if_block2) {
-          if_block2.p(ctx, dirty);
+        if (if_block3) {
+          if_block3.p(ctx, dirty);
           if (dirty[0] & /*definition*/
           1) {
-            transition_in(if_block2, 1);
+            transition_in(if_block3, 1);
           }
         } else {
-          if_block2 = create_if_block_111(ctx);
-          if_block2.c();
-          transition_in(if_block2, 1);
-          if_block2.m(t17.parentNode, t17);
+          if_block3 = create_if_block_111(ctx);
+          if_block3.c();
+          transition_in(if_block3, 1);
+          if_block3.m(t18.parentNode, t18);
         }
-      } else if (if_block2) {
+      } else if (if_block3) {
         group_outros();
-        transition_out(if_block2, 1, 1, () => {
-          if_block2 = null;
+        transition_out(if_block3, 1, 1, () => {
+          if_block3 = null;
         });
         check_outros();
       }
@@ -26460,7 +26714,7 @@ function create_each_block9(ctx) {
       if (dirty[0] & /*definition*/
       1)
         fieldmeta_changes.field = /*field*/
-        ctx[53];
+        ctx[54];
       if (dirty[0] & /*availableFieldsForCondition*/
       32)
         fieldmeta_changes.availableFieldsForCondition = /*availableFieldsForCondition*/
@@ -26468,7 +26722,7 @@ function create_each_block9(ctx) {
       fieldmeta.$set(fieldmeta_changes);
       if (!current || dirty[0] & /*definition*/
       1 && button1_disabled_value !== (button1_disabled_value = /*index*/
-      ctx[57] === /*definition*/
+      ctx[58] === /*definition*/
       ctx[0].fields.length - 1)) {
         button1.disabled = button1_disabled_value;
       }
@@ -26477,15 +26731,15 @@ function create_each_block9(ctx) {
       if (current)
         return;
       transition_in(if_block0);
-      transition_in(if_block1);
       transition_in(if_block2);
+      transition_in(if_block3);
       transition_in(fieldmeta.$$.fragment, local);
       current = true;
     },
     o(local) {
       transition_out(if_block0);
-      transition_out(if_block1);
       transition_out(if_block2);
+      transition_out(if_block3);
       transition_out(fieldmeta.$$.fragment, local);
       current = false;
     },
@@ -26494,21 +26748,23 @@ function create_each_block9(ctx) {
         detach(div3);
         detach(t9);
         detach(div6);
-        detach(t15);
-        detach(div7);
         detach(t16);
+        detach(div7);
         detach(t17);
         detach(t18);
+        detach(t19);
         detach(div8);
-        detach(t23);
+        detach(t24);
         detach(hr);
       }
       if (if_block0)
         if_block0.d();
       destroy_each(each_blocks, detaching);
+      if (if_block1)
+        if_block1.d();
       if_blocks[current_block_type_index].d();
-      if (if_block2)
-        if_block2.d(detaching);
+      if (if_block3)
+        if_block3.d(detaching);
       destroy_component(fieldmeta, detaching);
       mounted = false;
       run_all(dispose);
@@ -26757,6 +27013,10 @@ function instance33($$self, $$props, $$invalidate) {
     each_value[index].input.type = select_value(this);
     $$invalidate(0, definition);
   }
+  function input_1_input_handler(each_value, index) {
+    each_value[index].input.placeholder = this.value;
+    $$invalidate(0, definition);
+  }
   function inputbuilderselect_source_binding(value, field) {
     if ($$self.$$.not_equal(field.input.source, value)) {
       field.input.source = value;
@@ -26965,6 +27225,7 @@ function instance33($$self, $$props, $$invalidate) {
     toggle_checked_binding,
     input2_input_handler_1,
     select_change_handler,
+    input_1_input_handler,
     inputbuilderselect_source_binding,
     inputbuilderselect_options_binding,
     inputbuilderselect_folder_binding,
