@@ -1,10 +1,11 @@
 {
   "theme": "obsidian",
-  "monospaceFontFamily": "JetBrainsMono-ExtraLight",
+  "monospaceFontFamily": "JetBrainsMono-ExtraLight,JetBrains Mono",
   "enabledCssSnippets": [
     "折り返し",
     "MCL Multi Column"
   ],
   "translucency": false,
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "nativeMenus": false
 }
