@@ -883,6 +883,361 @@
       },
       "active": "e7a6bb9398dc859c",
       "mtime": "2026-11-06T22:06:13+09:00"
+    },
+    "仕込み方の繕い": {
+      "main": {
+        "id": "dedb067e5bdeb66f",
+        "type": "split",
+        "children": [
+          {
+            "id": "97c2dbc97c5259e0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ac9bc6d86029b3fc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_/26-315-2259.md",
+                    "mode": "source",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "26-315-2259"
+                }
+              },
+              {
+                "id": "10b17dfd0ef86048",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_事地/手形/_券契/手形/サネ/仕掛け/26-150-3913/26-150-3913.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "26-150-3913"
+                }
+              },
+              {
+                "id": "3b92285a2c426da9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "26-307-1114/26-307-0588.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "26-307-0588"
+                }
+              },
+              {
+                "id": "c11ea40163f0cbe5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_事地/手形/_券契/手形/サネ/仕掛け/26-147-3221/26-154-4908/26-154-4908.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "26-154-4908"
+                }
+              }
+            ],
+            "currentTab": 3,
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "00a195b40cc103f4",
+        "type": "split",
+        "children": [
+          {
+            "id": "a66dc7dc86d92443",
+            "type": "tabs",
+            "dimension": 67.79220779220779,
+            "children": [
+              {
+                "id": "f1c27108e098d791",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "ファイルエクスプローラ"
+                }
+              },
+              {
+                "id": "81952a1b3692b1cc",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "検索"
+                }
+              },
+              {
+                "id": "be4f47c061b7460e",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-bookmark",
+                  "title": "ブックマーク"
+                }
+              },
+              {
+                "id": "d28e713582316f5d",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer-history",
+                  "state": {},
+                  "icon": "lucide-clock",
+                  "title": "Web 履歴"
+                }
+              }
+            ]
+          },
+          {
+            "id": "95eaca6986d5b0d5",
+            "type": "tabs",
+            "dimension": 32.20779220779221,
+            "children": [
+              {
+                "id": "e7a6bb9398dc859c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "26-313-2213.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "26-313-2213"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 292.5790824890137
+      },
+      "right": {
+        "id": "48b59bd45615ce59",
+        "type": "split",
+        "children": [
+          {
+            "id": "935bd04492b8451c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9feddf1e878d5322",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "バックリンク"
+                }
+              },
+              {
+                "id": "df2262e7ed39540d",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "アウトゴーイングリンク"
+                }
+              },
+              {
+                "id": "b94710827bb48367",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "タグ"
+                }
+              },
+              {
+                "id": "952cc4b257d1ceeb",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "すべてのプロパティ"
+                }
+              },
+              {
+                "id": "84f8e8a8376c4f4f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "アウトライン"
+                }
+              },
+              {
+                "id": "313b7e1e4feacef5",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "ddd3b00cbbacccc5",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {
+                    "file": "26-251-1989.md"
+                  },
+                  "icon": "lucide-file-signature",
+                  "title": "脚注"
+                }
+              }
+            ],
+            "currentTab": 5
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:クイックスイッチャーを開く": true,
+          "graph:グラフビューを開く": true,
+          "canvas:新規キャンバスを作成": true,
+          "command-palette:コマンドパレットを開く": true,
+          "zk-prefixer:新規ユニークノートの作成": true,
+          "random-note:ランダムノートを開く": true,
+          "workspaces:ワークスペースレイアウトを管理": true,
+          "bases:新規ベースを作成": true,
+          "cmdr:公験": false,
+          "cmdr:ランダムノート: ランダムノートを開く": false,
+          "cmdr:フラッシュカード": false,
+          "cmdr:レイアウトを管理": false,
+          "cmdr:クイックスイッチャー": false,
+          "cmdr:グラフビュー": false,
+          "cmdr:新規キャンバス": false,
+          "cmdr:コマンドパレット": false,
+          "cmdr:マップビューを開く": false,
+          "cmdr:Modulesキャッシュをクリア": false,
+          "cmdr:Sync with a saved connection": false,
+          "cmdr:Git source control view": false,
+          "modalforms:Edit forms": true,
+          "obsidian-git:Open Git source control": false,
+          "terminal:Open terminal": false
+        }
+      },
+      "active": "c11ea40163f0cbe5",
+      "mtime": "2026-11-11T10:26:24+09:00"
     }
   },
   "active": "デフォルト"
