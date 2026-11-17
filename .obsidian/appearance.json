@@ -7,5 +7,7 @@
   ],
   "translucency": false,
   "baseFontSize": 16,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "showRibbon": true,
+  "showViewHeader": true
 }

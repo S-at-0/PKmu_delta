@@ -80,18 +80,26 @@ const getNoesei= isSpliced => async dunamis => {
         .split("\n")
         .filter(t=>['```','^'].every(x => !t.startsWith(x)) )
         .join("\n"): undefined;
-    const tropos = noema =>{
-        const {mu} = Mneme.topos(dunamis);
+    try {
+        if(isSpliced)return Promise
+            .resolve(JSON.parse(hyle))
+            .then(d=>d?.morphe?.hexis ??d)
+            .then(hexis =>Object({dunamis,hexis}));
+        const noema = function(x){
+            const kytos = Object.create(x);
+            return Object.assign(kytos, {...x,dunamis});
+        }(JSON.parse(hyle));
+        //region eidoTipos
         for (const khora of ["eidos", "skia"]){
-            if(isSpliced) delete noema[khora]
-            else if(mu <= 1)noema[khora] = (noema[khora] ?? [])
-                .reduce((a,d)=>a.add(Array.isArray(d)?new Set(d):d),new Set());
-        }
-        noema = !isSpliced? noema:
-            {hexis:noema?.morphe?.hexis ?? noema};
-        return{...noema,dunamis}
-    };
-    try {return tropos(JSON.parse(hyle))}
+            const skia = noema[khora] ?? [];
+            if(!Array.isArray(skia))continue;
+            noema[khora] = skia
+                .map(d=>Array.isArray(d)?new Set(d):d)
+                .reduce((a,d)=>a.add(d),new Set());
+        };
+        //endregion
+        return noema;
+    }
     catch (e){
         console.warn(`parsing ${dunamis?.name} aborted:`,e);
         return {dunamis};
