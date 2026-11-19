@@ -49,6 +49,7 @@ const arche = {
         sanctum: "_",
         cabinet: "_事地",
         logos: "_事地/言葉",
+        melete: "_事地/文殿",
         mneme: "_事地/公験",
         tally: "_事地/手形",
         tessera: "_事地/手形/_券契",
